@@ -1,0 +1,1820 @@
+2023-05-15 16:46:34,905 org.owasp.dependencycheck.utils.Settings:979
+DEBUG - Setting: data.directory='/opt/dependency-check-8.2.1/data'
+2023-05-15 16:46:34,908 org.owasp.dependencycheck.utils.Settings:979
+DEBUG - Setting: analyzer.jar.enabled='true'
+2023-05-15 16:46:34,908 org.owasp.dependencycheck.utils.Settings:979
+DEBUG - Setting: analyzer.msbuildproject.enabled='true'
+2023-05-15 16:46:34,909 org.owasp.dependencycheck.utils.Settings:979
+DEBUG - Setting: analyzer.archive.enabled='true'
+2023-05-15 16:46:34,909 org.owasp.dependencycheck.utils.Settings:979
+DEBUG - Setting: analyzer.knownexploited.enabled='true'
+2023-05-15 16:46:34,909 org.owasp.dependencycheck.utils.Settings:979
+DEBUG - Setting: analyzer.python.distribution.enabled='true'
+2023-05-15 16:46:34,910 org.owasp.dependencycheck.utils.Settings:979
+DEBUG - Setting: analyzer.python.package.enabled='true'
+2023-05-15 16:46:34,910 org.owasp.dependencycheck.utils.Settings:979
+DEBUG - Setting: analyzer.autoconf.enabled='true'
+2023-05-15 16:46:34,910 org.owasp.dependencycheck.utils.Settings:979
+DEBUG - Setting: analyzer.maveninstall.enabled='true'
+2023-05-15 16:46:34,910 org.owasp.dependencycheck.utils.Settings:979
+DEBUG - Setting: analyzer.pip.enabled='true'
+2023-05-15 16:46:34,910 org.owasp.dependencycheck.utils.Settings:979
+DEBUG - Setting: analyzer.pipfile.enabled='true'
+2023-05-15 16:46:34,910 org.owasp.dependencycheck.utils.Settings:979
+DEBUG - Setting: analyzer.poetry.enabled='true'
+2023-05-15 16:46:34,910 org.owasp.dependencycheck.utils.Settings:979
+DEBUG - Setting: analyzer.cmake.enabled='true'
+2023-05-15 16:46:34,910 org.owasp.dependencycheck.utils.Settings:979
+DEBUG - Setting: analyzer.nuspec.enabled='true'
+2023-05-15 16:46:34,911 org.owasp.dependencycheck.utils.Settings:979
+DEBUG - Setting: analyzer.nugetconf.enabled='true'
+2023-05-15 16:46:34,911 org.owasp.dependencycheck.utils.Settings:979
+DEBUG - Setting: analyzer.assembly.enabled='false'
+2023-05-15 16:46:34,911 org.owasp.dependencycheck.utils.Settings:979
+DEBUG - Setting: analyzer.bundle.audit.enabled='false'
+2023-05-15 16:46:34,911 org.owasp.dependencycheck.utils.Settings:979
+DEBUG - Setting: analyzer.filename.enabled='true'
+2023-05-15 16:46:34,911 org.owasp.dependencycheck.utils.Settings:979
+DEBUG - Setting: analyzer.mix.audit.enabled='true'
+2023-05-15 16:46:34,911 org.owasp.dependencycheck.utils.Settings:979
+DEBUG - Setting: analyzer.openssl.enabled='true'
+2023-05-15 16:46:34,911 org.owasp.dependencycheck.utils.Settings:979
+DEBUG - Setting: analyzer.composer.lock.enabled='true'
+2023-05-15 16:46:34,911 org.owasp.dependencycheck.utils.Settings:979
+DEBUG - Setting: analyzer.cpanfile.enabled='true'
+2023-05-15 16:46:34,911 org.owasp.dependencycheck.utils.Settings:979
+DEBUG - Setting: analyzer.golang.dep.enabled='true'
+2023-05-15 16:46:34,912 org.owasp.dependencycheck.utils.Settings:979
+DEBUG - Setting: analyzer.golang.mod.enabled='true'
+2023-05-15 16:46:34,912 org.owasp.dependencycheck.utils.Settings:979
+DEBUG - Setting: analyzer.dart.enabled='true'
+2023-05-15 16:46:34,912 org.owasp.dependencycheck.utils.Settings:979
+DEBUG - Setting: analyzer.node.package.enabled='true'
+2023-05-15 16:46:34,912 org.owasp.dependencycheck.utils.Settings:979
+DEBUG - Setting: analyzer.node.audit.enabled='true'
+2023-05-15 16:46:34,912 org.owasp.dependencycheck.utils.Settings:979
+DEBUG - Setting: analyzer.yarn.audit.enabled='false'
+2023-05-15 16:46:34,912 org.owasp.dependencycheck.utils.Settings:979
+DEBUG - Setting: analyzer.pnpm.audit.enabled='false'
+2023-05-15 16:46:34,912 org.owasp.dependencycheck.utils.Settings:979
+DEBUG - Setting: analyzer.node.audit.use.cache='true'
+2023-05-15 16:46:34,912 org.owasp.dependencycheck.utils.Settings:979
+DEBUG - Setting: analyzer.retirejs.enabled='false'
+2023-05-15 16:46:34,913 org.owasp.dependencycheck.utils.Settings:979
+DEBUG - Setting: analyzer.swift.package.manager.enabled='true'
+2023-05-15 16:46:34,913 org.owasp.dependencycheck.utils.Settings:979
+DEBUG - Setting: analyzer.swift.package.resolved.enabled='true'
+2023-05-15 16:46:34,913 org.owasp.dependencycheck.utils.Settings:979
+DEBUG - Setting: analyzer.cocoapods.enabled='true'
+2023-05-15 16:46:34,913 org.owasp.dependencycheck.utils.Settings:979
+DEBUG - Setting: analyzer.ruby.gemspec.enabled='true'
+2023-05-15 16:46:34,913 org.owasp.dependencycheck.utils.Settings:979
+DEBUG - Setting: analyzer.central.enabled='true'
+2023-05-15 16:46:34,913 org.owasp.dependencycheck.utils.Settings:979
+DEBUG - Setting: analyzer.central.use.cache='true'
+2023-05-15 16:46:34,913 org.owasp.dependencycheck.utils.Settings:979
+DEBUG - Setting: analyzer.ossindex.enabled='true'
+2023-05-15 16:46:34,913 org.owasp.dependencycheck.utils.Settings:979
+DEBUG - Setting: analyzer.ossindex.use.cache='true'
+2023-05-15 16:46:34,914 org.owasp.dependencycheck.utils.Settings:979
+DEBUG - Setting: junit.fail.on.cvss='0.0'
+2023-05-15 16:46:34,914 org.owasp.dependencycheck.utils.Settings:979
+DEBUG - Setting: analyzer.nexus.proxy='true'
+2023-05-15 16:46:34,915 org.owasp.dependencycheck.utils.Settings:979
+DEBUG - Setting: hosted.suppressions.enabled='true'
+2023-05-15 16:46:34,916 org.owasp.dependencycheck.App:356
+DEBUG - Scanning .
+2023-05-15 16:46:34,920 org.owasp.dependencycheck.App:371
+DEBUG - BaseDir: .
+2023-05-15 16:46:34,921 org.owasp.dependencycheck.App:372
+DEBUG - Include: **/*
+2023-05-15 16:46:34,941 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./.git/COMMIT_EDITMSG
+2023-05-15 16:46:34,941 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./.git/HEAD
+2023-05-15 16:46:34,942 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./.git/config
+2023-05-15 16:46:34,942 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./.git/description
+2023-05-15 16:46:34,942 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./.git/hooks/applypatch-msg.sample
+2023-05-15 16:46:34,942 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./.git/hooks/commit-msg.sample
+2023-05-15 16:46:34,942 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./.git/hooks/fsmonitor-watchman.sample
+2023-05-15 16:46:34,942 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./.git/hooks/post-update.sample
+2023-05-15 16:46:34,942 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./.git/hooks/pre-applypatch.sample
+2023-05-15 16:46:34,942 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./.git/hooks/pre-commit.sample
+2023-05-15 16:46:34,942 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./.git/hooks/pre-merge-commit.sample
+2023-05-15 16:46:34,942 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./.git/hooks/pre-push.sample
+2023-05-15 16:46:34,942 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./.git/hooks/pre-rebase.sample
+2023-05-15 16:46:34,942 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./.git/hooks/pre-receive.sample
+2023-05-15 16:46:34,942 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./.git/hooks/prepare-commit-msg.sample
+2023-05-15 16:46:34,942 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./.git/hooks/push-to-checkout.sample
+2023-05-15 16:46:34,942 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./.git/hooks/update.sample
+2023-05-15 16:46:34,942 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./.git/index
+2023-05-15 16:46:34,943 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./.git/info/exclude
+2023-05-15 16:46:34,943 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./.git/logs/HEAD
+2023-05-15 16:46:34,943 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./.git/logs/refs/heads/main
+2023-05-15 16:46:34,943 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./.git/logs/refs/remotes/origin/HEAD
+2023-05-15 16:46:34,943 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./.git/logs/refs/remotes/origin/main
+2023-05-15 16:46:34,943 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./.git/objects/0b/6c54934b891009720d2d665222a04a4a14029c
+2023-05-15 16:46:34,943 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./.git/objects/10/f218262443d2092e06e1427f00ee44b8c6c452
+2023-05-15 16:46:34,943 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./.git/objects/33/4a18fde230e058a95726f614a91b9a49079199
+2023-05-15 16:46:34,943 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./.git/objects/3d/9eea7319ea2a1f7b018aba0bb6e1f8110c7e06
+2023-05-15 16:46:34,943 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./.git/objects/83/19b4eedd1a17d579a3e6d2794637e22f628695
+2023-05-15 16:46:34,943 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./.git/objects/8b/0ae4a57c21e553b4cc242dd52d38863dfe752d
+2023-05-15 16:46:34,943 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./.git/objects/9b/45d298863b247644b61c8672255582b496f81f
+2023-05-15 16:46:34,943 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./.git/objects/b2/e5e19d83e5551878f42fdeba85d9a408e57c79
+2023-05-15 16:46:34,943 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./.git/objects/bb/74c6753b488d476fe1549710e3e13d7402d462
+2023-05-15 16:46:34,943 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./.git/objects/c0/f11298880e672c2bc1bacef5bc7d21bdc5c482
+2023-05-15 16:46:34,944 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./.git/objects/c9/4411acb4ca5b25754cb9320b149f92208211fb
+2023-05-15 16:46:34,944 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./.git/objects/e6/9de29bb2d1d6434b8b29ae775ad8c2e48c5391
+2023-05-15 16:46:34,944 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./.git/objects/ea/168e6fd613fa12d220997016d292edbbb3258c
+2023-05-15 16:46:34,944 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./.git/objects/pack/pack-74c3c6dba84c9074454ae384d7aeae3548393b9a.idx
+2023-05-15 16:46:34,944 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./.git/objects/pack/pack-74c3c6dba84c9074454ae384d7aeae3548393b9a.pack
+2023-05-15 16:46:34,944 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./.git/packed-refs
+2023-05-15 16:46:34,944 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./.git/refs/heads/main
+2023-05-15 16:46:34,944 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./.git/refs/remotes/origin/HEAD
+2023-05-15 16:46:34,944 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./.git/refs/remotes/origin/main
+2023-05-15 16:46:34,944 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./.gitignore
+2023-05-15 16:46:34,944 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./LICENSE
+2023-05-15 16:46:34,944 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./dependency-check-report.html
+2023-05-15 16:46:34,944 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./dependency-check-report.json
+2023-05-15 16:46:34,944 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./dependency-check.log
+2023-05-15 16:46:34,944 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/.package-lock.json
+2023-05-15 16:46:34,945 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/@isaacs/cliui/LICENSE.txt
+2023-05-15 16:46:34,945 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/@isaacs/cliui/README.md
+2023-05-15 16:46:34,945 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/@isaacs/cliui/build/index.cjs
+2023-05-15 16:46:34,945 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/@isaacs/cliui/build/index.d.cts
+2023-05-15 16:46:34,945 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/@isaacs/cliui/build/lib/index.js
+2023-05-15 16:46:34,945 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/@isaacs/cliui/index.mjs
+2023-05-15 16:46:34,945 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/@isaacs/cliui/package.json
+2023-05-15 16:46:34,945 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/ansi-regex/index.d.ts
+2023-05-15 16:46:34,945 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/ansi-regex/index.js
+2023-05-15 16:46:34,945 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/ansi-regex/license
+2023-05-15 16:46:34,945 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/ansi-regex/package.json
+2023-05-15 16:46:34,945 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/ansi-regex/readme.md
+2023-05-15 16:46:34,945 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/ansi-styles/index.d.ts
+2023-05-15 16:46:34,945 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/ansi-styles/index.js
+2023-05-15 16:46:34,945 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/ansi-styles/license
+2023-05-15 16:46:34,945 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/ansi-styles/package.json
+2023-05-15 16:46:34,945 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/ansi-styles/readme.md
+2023-05-15 16:46:34,945 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/color-convert/CHANGELOG.md
+2023-05-15 16:46:34,946 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/color-convert/LICENSE
+2023-05-15 16:46:34,946 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/color-convert/README.md
+2023-05-15 16:46:34,946 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/color-convert/conversions.js
+2023-05-15 16:46:34,946 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/color-convert/index.js
+2023-05-15 16:46:34,946 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/color-convert/package.json
+2023-05-15 16:46:34,946 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/color-convert/route.js
+2023-05-15 16:46:34,946 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/color-name/LICENSE
+2023-05-15 16:46:34,946 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/color-name/README.md
+2023-05-15 16:46:34,946 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/color-name/index.js
+2023-05-15 16:46:34,946 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/color-name/package.json
+2023-05-15 16:46:34,946 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/eastasianwidth/README.md
+2023-05-15 16:46:34,946 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/eastasianwidth/eastasianwidth.js
+2023-05-15 16:46:34,946 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/eastasianwidth/package.json
+2023-05-15 16:46:34,946 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/emoji-regex/LICENSE-MIT.txt
+2023-05-15 16:46:34,946 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/emoji-regex/README.md
+2023-05-15 16:46:34,946 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/emoji-regex/RGI_Emoji.d.ts
+2023-05-15 16:46:34,946 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/emoji-regex/RGI_Emoji.js
+2023-05-15 16:46:34,946 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/emoji-regex/es2015/RGI_Emoji.d.ts
+2023-05-15 16:46:34,946 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/emoji-regex/es2015/RGI_Emoji.js
+2023-05-15 16:46:34,946 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/emoji-regex/es2015/index.d.ts
+2023-05-15 16:46:34,947 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/emoji-regex/es2015/index.js
+2023-05-15 16:46:34,947 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/emoji-regex/es2015/text.d.ts
+2023-05-15 16:46:34,947 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/emoji-regex/es2015/text.js
+2023-05-15 16:46:34,947 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/emoji-regex/index.d.ts
+2023-05-15 16:46:34,947 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/emoji-regex/index.js
+2023-05-15 16:46:34,947 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/emoji-regex/package.json
+2023-05-15 16:46:34,947 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/emoji-regex/text.d.ts
+2023-05-15 16:46:34,947 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/emoji-regex/text.js
+2023-05-15 16:46:34,947 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/is-fullwidth-code-point/index.d.ts
+2023-05-15 16:46:34,947 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/is-fullwidth-code-point/index.js
+2023-05-15 16:46:34,947 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/is-fullwidth-code-point/license
+2023-05-15 16:46:34,947 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/is-fullwidth-code-point/package.json
+2023-05-15 16:46:34,947 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/is-fullwidth-code-point/readme.md
+2023-05-15 16:46:34,947 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/string-width-cjs/index.d.ts
+2023-05-15 16:46:34,947 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/string-width-cjs/index.js
+2023-05-15 16:46:34,947 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/string-width-cjs/license
+2023-05-15 16:46:34,947 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/string-width-cjs/node_modules/ansi-regex/index.d.ts
+2023-05-15 16:46:34,947 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/string-width-cjs/node_modules/ansi-regex/index.js
+2023-05-15 16:46:34,947 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/string-width-cjs/node_modules/ansi-regex/license
+2023-05-15 16:46:34,948 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/string-width-cjs/node_modules/ansi-regex/package.json
+2023-05-15 16:46:34,948 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/string-width-cjs/node_modules/ansi-regex/readme.md
+2023-05-15 16:46:34,948 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/string-width-cjs/node_modules/emoji-regex/LICENSE-MIT.txt
+2023-05-15 16:46:34,948 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/string-width-cjs/node_modules/emoji-regex/README.md
+2023-05-15 16:46:34,948 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/string-width-cjs/node_modules/emoji-regex/es2015/index.js
+2023-05-15 16:46:34,948 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/string-width-cjs/node_modules/emoji-regex/es2015/text.js
+2023-05-15 16:46:34,948 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/string-width-cjs/node_modules/emoji-regex/index.d.ts
+2023-05-15 16:46:34,948 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/string-width-cjs/node_modules/emoji-regex/index.js
+2023-05-15 16:46:34,948 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/string-width-cjs/node_modules/emoji-regex/package.json
+2023-05-15 16:46:34,948 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/string-width-cjs/node_modules/emoji-regex/text.js
+2023-05-15 16:46:34,948 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/string-width-cjs/node_modules/strip-ansi/index.d.ts
+2023-05-15 16:46:34,948 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/string-width-cjs/node_modules/strip-ansi/index.js
+2023-05-15 16:46:34,948 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/string-width-cjs/node_modules/strip-ansi/license
+2023-05-15 16:46:34,948 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/string-width-cjs/node_modules/strip-ansi/package.json
+2023-05-15 16:46:34,948 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/string-width-cjs/node_modules/strip-ansi/readme.md
+2023-05-15 16:46:34,948 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/string-width-cjs/package.json
+2023-05-15 16:46:34,948 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/string-width-cjs/readme.md
+2023-05-15 16:46:34,948 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/string-width/index.d.ts
+2023-05-15 16:46:34,948 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/string-width/index.js
+2023-05-15 16:46:34,948 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/string-width/license
+2023-05-15 16:46:34,948 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/string-width/package.json
+2023-05-15 16:46:34,949 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/string-width/readme.md
+2023-05-15 16:46:34,949 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/strip-ansi-cjs/index.d.ts
+2023-05-15 16:46:34,949 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/strip-ansi-cjs/index.js
+2023-05-15 16:46:34,949 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/strip-ansi-cjs/license
+2023-05-15 16:46:34,949 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/strip-ansi-cjs/node_modules/ansi-regex/index.d.ts
+2023-05-15 16:46:34,949 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/strip-ansi-cjs/node_modules/ansi-regex/index.js
+2023-05-15 16:46:34,949 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/strip-ansi-cjs/node_modules/ansi-regex/license
+2023-05-15 16:46:34,949 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/strip-ansi-cjs/node_modules/ansi-regex/package.json
+2023-05-15 16:46:34,949 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/strip-ansi-cjs/node_modules/ansi-regex/readme.md
+2023-05-15 16:46:34,949 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/strip-ansi-cjs/package.json
+2023-05-15 16:46:34,949 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/strip-ansi-cjs/readme.md
+2023-05-15 16:46:34,949 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/strip-ansi/index.d.ts
+2023-05-15 16:46:34,949 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/strip-ansi/index.js
+2023-05-15 16:46:34,949 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/strip-ansi/license
+2023-05-15 16:46:34,949 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/strip-ansi/package.json
+2023-05-15 16:46:34,949 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/strip-ansi/readme.md
+2023-05-15 16:46:34,949 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/wrap-ansi-cjs/index.js
+2023-05-15 16:46:34,949 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/wrap-ansi-cjs/license
+2023-05-15 16:46:34,949 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/wrap-ansi-cjs/node_modules/ansi-regex/index.d.ts
+2023-05-15 16:46:34,949 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/wrap-ansi-cjs/node_modules/ansi-regex/index.js
+2023-05-15 16:46:34,950 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/wrap-ansi-cjs/node_modules/ansi-regex/license
+2023-05-15 16:46:34,950 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/wrap-ansi-cjs/node_modules/ansi-regex/package.json
+2023-05-15 16:46:34,950 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/wrap-ansi-cjs/node_modules/ansi-regex/readme.md
+2023-05-15 16:46:34,950 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/wrap-ansi-cjs/node_modules/ansi-styles/index.d.ts
+2023-05-15 16:46:34,950 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/wrap-ansi-cjs/node_modules/ansi-styles/index.js
+2023-05-15 16:46:34,950 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/wrap-ansi-cjs/node_modules/ansi-styles/license
+2023-05-15 16:46:34,950 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/wrap-ansi-cjs/node_modules/ansi-styles/package.json
+2023-05-15 16:46:34,950 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/wrap-ansi-cjs/node_modules/ansi-styles/readme.md
+2023-05-15 16:46:34,950 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/wrap-ansi-cjs/node_modules/emoji-regex/LICENSE-MIT.txt
+2023-05-15 16:46:34,950 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/wrap-ansi-cjs/node_modules/emoji-regex/README.md
+2023-05-15 16:46:34,950 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/wrap-ansi-cjs/node_modules/emoji-regex/es2015/index.js
+2023-05-15 16:46:34,950 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/wrap-ansi-cjs/node_modules/emoji-regex/es2015/text.js
+2023-05-15 16:46:34,950 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/wrap-ansi-cjs/node_modules/emoji-regex/index.d.ts
+2023-05-15 16:46:34,950 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/wrap-ansi-cjs/node_modules/emoji-regex/index.js
+2023-05-15 16:46:34,950 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/wrap-ansi-cjs/node_modules/emoji-regex/package.json
+2023-05-15 16:46:34,950 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/wrap-ansi-cjs/node_modules/emoji-regex/text.js
+2023-05-15 16:46:34,950 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/wrap-ansi-cjs/node_modules/string-width/index.d.ts
+2023-05-15 16:46:34,950 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/wrap-ansi-cjs/node_modules/string-width/index.js
+2023-05-15 16:46:34,950 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/wrap-ansi-cjs/node_modules/string-width/license
+2023-05-15 16:46:34,951 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/wrap-ansi-cjs/node_modules/string-width/package.json
+2023-05-15 16:46:34,951 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/wrap-ansi-cjs/node_modules/string-width/readme.md
+2023-05-15 16:46:34,951 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/wrap-ansi-cjs/node_modules/strip-ansi/index.d.ts
+2023-05-15 16:46:34,951 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/wrap-ansi-cjs/node_modules/strip-ansi/index.js
+2023-05-15 16:46:34,951 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/wrap-ansi-cjs/node_modules/strip-ansi/license
+2023-05-15 16:46:34,951 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/wrap-ansi-cjs/node_modules/strip-ansi/package.json
+2023-05-15 16:46:34,951 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/wrap-ansi-cjs/node_modules/strip-ansi/readme.md
+2023-05-15 16:46:34,951 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/wrap-ansi-cjs/package.json
+2023-05-15 16:46:34,951 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/wrap-ansi-cjs/readme.md
+2023-05-15 16:46:34,951 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/wrap-ansi/index.d.ts
+2023-05-15 16:46:34,951 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/wrap-ansi/index.js
+2023-05-15 16:46:34,951 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/wrap-ansi/license
+2023-05-15 16:46:34,951 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/wrap-ansi/package.json
+2023-05-15 16:46:34,951 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./node_modules/wrap-ansi/readme.md
+2023-05-15 16:46:34,951 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./package-lock.json
+2023-05-15 16:46:34,951 org.owasp.dependencycheck.App:390
+DEBUG - Found file ./package.json
+2023-05-15 16:46:34,963 org.owasp.dependencycheck.analyzer.AnalyzerService:113
+DEBUG - Loaded Analyzer Archive Analyzer
+2023-05-15 16:46:34,964 org.owasp.dependencycheck.analyzer.AnalyzerService:113
+DEBUG - Loaded Analyzer File Name Analyzer
+2023-05-15 16:46:34,971 org.owasp.dependencycheck.analyzer.AnalyzerService:113
+DEBUG - Loaded Analyzer Jar Analyzer
+2023-05-15 16:46:34,973 org.owasp.dependencycheck.analyzer.AnalyzerService:113
+DEBUG - Loaded Analyzer Hint Analyzer
+2023-05-15 16:46:34,975 org.owasp.dependencycheck.analyzer.AnalyzerService:113
+DEBUG - Loaded Analyzer CPE Analyzer
+2023-05-15 16:46:34,977 org.owasp.dependencycheck.analyzer.AnalyzerService:113
+DEBUG - Loaded Analyzer False Positive Analyzer
+2023-05-15 16:46:34,978 org.owasp.dependencycheck.analyzer.AnalyzerService:113
+DEBUG - Loaded Analyzer Dependency Bundling Analyzer
+2023-05-15 16:46:34,978 org.owasp.dependencycheck.analyzer.AnalyzerService:113
+DEBUG - Loaded Analyzer Dependency Merging Analyzer
+2023-05-15 16:46:34,979 org.owasp.dependencycheck.analyzer.AnalyzerService:113
+DEBUG - Loaded Analyzer NVD CVE Analyzer
+2023-05-15 16:46:34,980 org.owasp.dependencycheck.analyzer.AnalyzerService:113
+DEBUG - Loaded Analyzer Vulnerability Suppression Analyzer
+2023-05-15 16:46:34,980 org.owasp.dependencycheck.analyzer.AnalyzerService:113
+DEBUG - Loaded Analyzer Central Analyzer
+2023-05-15 16:46:34,981 org.owasp.dependencycheck.analyzer.AnalyzerService:113
+DEBUG - Loaded Analyzer Nexus Analyzer
+2023-05-15 16:46:34,981 org.owasp.dependencycheck.analyzer.AnalyzerService:113
+DEBUG - Loaded Analyzer Artifactory Analyzer
+2023-05-15 16:46:34,982 org.owasp.dependencycheck.analyzer.AnalyzerService:113
+DEBUG - Loaded Analyzer Nuspec Analyzer
+2023-05-15 16:46:34,982 org.owasp.dependencycheck.analyzer.AnalyzerService:113
+DEBUG - Loaded Analyzer Nugetconf Analyzer
+2023-05-15 16:46:34,984 org.owasp.dependencycheck.analyzer.AnalyzerService:113
+DEBUG - Loaded Analyzer MSBuild Project Analyzer
+2023-05-15 16:46:34,984 org.owasp.dependencycheck.analyzer.AnalyzerService:113
+DEBUG - Loaded Analyzer Assembly Analyzer
+2023-05-15 16:46:34,990 org.owasp.dependencycheck.analyzer.AnalyzerService:113
+DEBUG - Loaded Analyzer OpenSSL Source Analyzer
+2023-05-15 16:46:34,992 org.owasp.dependencycheck.analyzer.AnalyzerService:113
+DEBUG - Loaded Analyzer Node.js Package Analyzer
+2023-05-15 16:46:34,993 org.owasp.dependencycheck.analyzer.AnalyzerService:113
+DEBUG - Loaded Analyzer Node Audit Analyzer
+2023-05-15 16:46:34,993 org.owasp.dependencycheck.analyzer.AnalyzerService:113
+DEBUG - Loaded Analyzer Yarn Audit Analyzer
+2023-05-15 16:46:34,994 org.owasp.dependencycheck.analyzer.AnalyzerService:113
+DEBUG - Loaded Analyzer Pnpm Audit Analyzer
+2023-05-15 16:46:34,997 org.owasp.dependencycheck.analyzer.AnalyzerService:113
+DEBUG - Loaded Analyzer RetireJS Analyzer
+2023-05-15 16:46:34,999 org.owasp.dependencycheck.analyzer.AnalyzerService:113
+DEBUG - Loaded Analyzer Ruby Bundle Audit Analyzer
+2023-05-15 16:46:35,003 org.owasp.dependencycheck.analyzer.AnalyzerService:113
+DEBUG - Loaded Analyzer Version Filter Analyzer
+2023-05-15 16:46:35,004 org.owasp.dependencycheck.analyzer.AnalyzerService:113
+DEBUG - Loaded Analyzer Sonatype OSS Index Analyzer
+2023-05-15 16:46:35,040 org.owasp.dependencycheck.analyzer.AnalyzerService:113
+DEBUG - Loaded Analyzer Known Exploited Vulnerability Analyzer
+2023-05-15 16:46:35,042 org.owasp.dependencycheck.analyzer.AnalyzerService:113
+DEBUG - Loaded Analyzer Unused Suppression Rule Analyzer
+2023-05-15 16:46:35,043 org.owasp.dependencycheck.utils.Settings:1180
+DEBUG - Settings.getDataFile() - file: '/opt/dependency-check-8.2.1/data'
+2023-05-15 16:46:35,171 org.owasp.dependencycheck.analyzer.AbstractNpmAnalyzer:133
+DEBUG - Skipping analysis of node/bower module: ./node_modules/@isaacs/cliui/package.json
+2023-05-15 16:46:35,171 org.owasp.dependencycheck.analyzer.AbstractNpmAnalyzer:133
+DEBUG - Skipping analysis of node/bower module: ./node_modules/ansi-regex/package.json
+2023-05-15 16:46:35,171 org.owasp.dependencycheck.analyzer.AbstractNpmAnalyzer:133
+DEBUG - Skipping analysis of node/bower module: ./node_modules/ansi-styles/package.json
+2023-05-15 16:46:35,172 org.owasp.dependencycheck.analyzer.AbstractNpmAnalyzer:133
+DEBUG - Skipping analysis of node/bower module: ./node_modules/color-convert/package.json
+2023-05-15 16:46:35,172 org.owasp.dependencycheck.analyzer.AbstractNpmAnalyzer:133
+DEBUG - Skipping analysis of node/bower module: ./node_modules/color-name/package.json
+2023-05-15 16:46:35,172 org.owasp.dependencycheck.analyzer.AbstractNpmAnalyzer:133
+DEBUG - Skipping analysis of node/bower module: ./node_modules/eastasianwidth/package.json
+2023-05-15 16:46:35,172 org.owasp.dependencycheck.analyzer.AbstractNpmAnalyzer:133
+DEBUG - Skipping analysis of node/bower module: ./node_modules/emoji-regex/package.json
+2023-05-15 16:46:35,173 org.owasp.dependencycheck.analyzer.AbstractNpmAnalyzer:133
+DEBUG - Skipping analysis of node/bower module: ./node_modules/is-fullwidth-code-point/package.json
+2023-05-15 16:46:35,173 org.owasp.dependencycheck.analyzer.AbstractNpmAnalyzer:133
+DEBUG - Skipping analysis of node/bower module: ./node_modules/string-width-cjs/node_modules/ansi-regex/package.json
+2023-05-15 16:46:35,173 org.owasp.dependencycheck.analyzer.AbstractNpmAnalyzer:133
+DEBUG - Skipping analysis of node/bower module: ./node_modules/string-width-cjs/node_modules/emoji-regex/package.json
+2023-05-15 16:46:35,173 org.owasp.dependencycheck.analyzer.AbstractNpmAnalyzer:133
+DEBUG - Skipping analysis of node/bower module: ./node_modules/string-width-cjs/node_modules/strip-ansi/package.json
+2023-05-15 16:46:35,173 org.owasp.dependencycheck.analyzer.AbstractNpmAnalyzer:133
+DEBUG - Skipping analysis of node/bower module: ./node_modules/string-width-cjs/package.json
+2023-05-15 16:46:35,174 org.owasp.dependencycheck.analyzer.AbstractNpmAnalyzer:133
+DEBUG - Skipping analysis of node/bower module: ./node_modules/string-width/package.json
+2023-05-15 16:46:35,174 org.owasp.dependencycheck.analyzer.AbstractNpmAnalyzer:133
+DEBUG - Skipping analysis of node/bower module: ./node_modules/strip-ansi-cjs/node_modules/ansi-regex/package.json
+2023-05-15 16:46:35,174 org.owasp.dependencycheck.analyzer.AbstractNpmAnalyzer:133
+DEBUG - Skipping analysis of node/bower module: ./node_modules/strip-ansi-cjs/package.json
+2023-05-15 16:46:35,174 org.owasp.dependencycheck.analyzer.AbstractNpmAnalyzer:133
+DEBUG - Skipping analysis of node/bower module: ./node_modules/strip-ansi/package.json
+2023-05-15 16:46:35,174 org.owasp.dependencycheck.analyzer.AbstractNpmAnalyzer:133
+DEBUG - Skipping analysis of node/bower module: ./node_modules/wrap-ansi-cjs/node_modules/ansi-regex/package.json
+2023-05-15 16:46:35,175 org.owasp.dependencycheck.analyzer.AbstractNpmAnalyzer:133
+DEBUG - Skipping analysis of node/bower module: ./node_modules/wrap-ansi-cjs/node_modules/ansi-styles/package.json
+2023-05-15 16:46:35,175 org.owasp.dependencycheck.analyzer.AbstractNpmAnalyzer:133
+DEBUG - Skipping analysis of node/bower module: ./node_modules/wrap-ansi-cjs/node_modules/emoji-regex/package.json
+2023-05-15 16:46:35,175 org.owasp.dependencycheck.analyzer.AbstractNpmAnalyzer:133
+DEBUG - Skipping analysis of node/bower module: ./node_modules/wrap-ansi-cjs/node_modules/string-width/package.json
+2023-05-15 16:46:35,175 org.owasp.dependencycheck.analyzer.AbstractNpmAnalyzer:133
+DEBUG - Skipping analysis of node/bower module: ./node_modules/wrap-ansi-cjs/node_modules/strip-ansi/package.json
+2023-05-15 16:46:35,175 org.owasp.dependencycheck.analyzer.AbstractNpmAnalyzer:133
+DEBUG - Skipping analysis of node/bower module: ./node_modules/wrap-ansi-cjs/package.json
+2023-05-15 16:46:35,175 org.owasp.dependencycheck.analyzer.AbstractNpmAnalyzer:133
+DEBUG - Skipping analysis of node/bower module: ./node_modules/wrap-ansi/package.json
+2023-05-15 16:46:35,185 org.owasp.dependencycheck.utils.Settings:1180
+DEBUG - Settings.getDataFile() - file: '/opt/dependency-check-8.2.1/data'
+2023-05-15 16:46:35,185 org.owasp.dependencycheck.utils.Settings:1437
+DEBUG - Data directory: /opt/dependency-check-8.2.1/data
+2023-05-15 16:46:35,185 org.owasp.dependencycheck.utils.Settings:1453
+DEBUG - Connection String: 'jdbc:h2:file:/opt/dependency-check-8.2.1/data/odc;AUTOCOMMIT=ON;CACHE_SIZE=65536;RETENTION_TIME=1000;MAX_COMPACT_TIME=10000;'
+2023-05-15 16:46:35,185 org.owasp.dependencycheck.utils.Settings:1180
+DEBUG - Settings.getDataFile() - file: '/opt/dependency-check-8.2.1/data'
+2023-05-15 16:46:35,217 org.owasp.dependencycheck.utils.WriteLock:168
+DEBUG - Lock file created (main) 22919a92b5b489c157cabbbece98524e @ 2023-05-15 16:46:35.217
+2023-05-15 16:46:35,225 org.owasp.dependencycheck.data.nvdcve.DatabaseManager:143
+DEBUG - Loading driver 'org.h2.Driver'
+2023-05-15 16:46:35,229 org.owasp.dependencycheck.utils.Settings:1180
+DEBUG - Settings.getDataFile() - file: '/opt/dependency-check-8.2.1/data'
+2023-05-15 16:46:35,229 org.owasp.dependencycheck.utils.Settings:1437
+DEBUG - Data directory: /opt/dependency-check-8.2.1/data
+2023-05-15 16:46:35,229 org.owasp.dependencycheck.utils.Settings:1453
+DEBUG - Connection String: 'jdbc:h2:file:/opt/dependency-check-8.2.1/data/odc;AUTOCOMMIT=ON;CACHE_SIZE=65536;RETENTION_TIME=1000;MAX_COMPACT_TIME=10000;'
+2023-05-15 16:46:35,229 org.owasp.dependencycheck.utils.Settings:1180
+DEBUG - Settings.getDataFile() - file: '/opt/dependency-check-8.2.1/data'
+2023-05-15 16:46:35,229 org.owasp.dependencycheck.data.nvdcve.DatabaseManager:172
+DEBUG - Need to create DB Structure: false
+2023-05-15 16:46:35,229 org.owasp.dependencycheck.data.nvdcve.DatabaseManager:178
+DEBUG - Loading database connection
+2023-05-15 16:46:35,229 org.owasp.dependencycheck.data.nvdcve.DatabaseManager:179
+DEBUG - Connection String: jdbc:h2:file:/opt/dependency-check-8.2.1/data/odc;AUTOCOMMIT=ON;CACHE_SIZE=65536;RETENTION_TIME=1000;MAX_COMPACT_TIME=10000;
+2023-05-15 16:46:35,229 org.owasp.dependencycheck.data.nvdcve.DatabaseManager:180
+DEBUG - Database User: dcuser
+2023-05-15 16:46:35,442 org.owasp.dependencycheck.data.nvdcve.DatabaseManager:241
+DEBUG - Database product: h2
+2023-05-15 16:46:35,457 org.owasp.dependencycheck.data.nvdcve.DatabaseManager:502
+DEBUG - DC Schema: 5.4
+2023-05-15 16:46:35,461 org.owasp.dependencycheck.data.nvdcve.DatabaseManager:503
+DEBUG - DB Schema: 5.4
+2023-05-15 16:46:35,559 org.owasp.dependencycheck.Engine:891
+INFO  - Checking for updates
+2023-05-15 16:46:35,562 org.owasp.dependencycheck.data.update.NvdCveUpdater:234
+INFO  - Skipping NVD check since last check was within 4 hours.
+2023-05-15 16:46:35,562 org.owasp.dependencycheck.data.update.NvdCveUpdater:235
+DEBUG - Last NVD was at 1684149371, and now 1684161995 is within 14400 s.
+2023-05-15 16:46:35,563 org.owasp.dependencycheck.data.update.EngineVersionCheck:134
+DEBUG - Begin Engine Version Check
+2023-05-15 16:46:35,563 org.owasp.dependencycheck.data.update.EngineVersionCheck:142
+DEBUG - Last checked: 1684158753
+2023-05-15 16:46:35,563 org.owasp.dependencycheck.data.update.EngineVersionCheck:143
+DEBUG - Now: 1684161995
+2023-05-15 16:46:35,563 org.owasp.dependencycheck.data.update.EngineVersionCheck:144
+DEBUG - Current version: 8.2.1
+2023-05-15 16:46:35,563 org.owasp.dependencycheck.data.update.EngineVersionCheck:200
+DEBUG - Upgrade not needed
+2023-05-15 16:46:35,565 org.owasp.dependencycheck.utils.Settings:1180
+DEBUG - Settings.getDataFile() - file: '/opt/dependency-check-8.2.1/data'
+2023-05-15 16:46:35,565 org.owasp.dependencycheck.utils.Settings:1180
+DEBUG - Settings.getDataFile() - file: '/opt/dependency-check-8.2.1/data'
+2023-05-15 16:46:35,566 org.owasp.dependencycheck.data.update.HostedSuppressionsDataSource:107
+DEBUG - Last updated: 1684158545217
+2023-05-15 16:46:35,566 org.owasp.dependencycheck.data.update.HostedSuppressionsDataSource:108
+DEBUG - Now: 1684161995566
+2023-05-15 16:46:35,566 org.owasp.dependencycheck.data.update.HostedSuppressionsDataSource:112
+INFO  - Skipping Hosted Suppressions file update since last update was within 2 hours.
+2023-05-15 16:46:35,567 org.owasp.dependencycheck.data.update.KnownExploitedDataSource:127
+INFO  - Skipping Known Exploited Vulnerabilities update check since last check was within 24 hours.
+2023-05-15 16:46:35,567 org.owasp.dependencycheck.data.nvdcve.CveDB:311
+DEBUG - Closing database
+2023-05-15 16:46:35,567 org.owasp.dependencycheck.data.nvdcve.CveDB:313
+DEBUG - Cache cleared
+2023-05-15 16:46:35,578 org.owasp.dependencycheck.data.nvdcve.CveDB:316
+DEBUG - Connection closed
+2023-05-15 16:46:35,578 org.owasp.dependencycheck.data.nvdcve.CveDB:322
+DEBUG - Resources released
+2023-05-15 16:46:35,578 org.owasp.dependencycheck.data.nvdcve.DriverLoader:57
+DEBUG - Begin deregister driver
+2023-05-15 16:46:35,578 org.owasp.dependencycheck.data.nvdcve.DriverLoader:59
+DEBUG - End deregister driver
+2023-05-15 16:46:35,578 org.owasp.dependencycheck.Engine:914
+INFO  - Check for updates complete (19 ms)
+2023-05-15 16:46:35,579 org.owasp.dependencycheck.utils.Settings:1180
+DEBUG - Settings.getDataFile() - file: '/opt/dependency-check-8.2.1/data'
+2023-05-15 16:46:35,579 org.owasp.dependencycheck.utils.Settings:1437
+DEBUG - Data directory: /opt/dependency-check-8.2.1/data
+2023-05-15 16:46:35,579 org.owasp.dependencycheck.utils.Settings:1453
+DEBUG - Connection String: 'jdbc:h2:file:/opt/dependency-check-8.2.1/data/odc;AUTOCOMMIT=ON;CACHE_SIZE=65536;RETENTION_TIME=1000;MAX_COMPACT_TIME=10000;'
+2023-05-15 16:46:35,579 org.owasp.dependencycheck.utils.Settings:1180
+DEBUG - Settings.getDataFile() - file: '/opt/dependency-check-8.2.1/data'
+2023-05-15 16:46:35,579 org.owasp.dependencycheck.utils.FileUtils:121
+DEBUG - Temporary directory is `/tmp/dctemp37daa996-1c96-42d9-b2b3-b00e27e1fdd3`
+2023-05-15 16:46:35,579 org.owasp.dependencycheck.Engine:1006
+DEBUG - copying database /opt/dependency-check-8.2.1/data/odc.mv.db to /tmp/dctemp37daa996-1c96-42d9-b2b3-b00e27e1fdd3
+2023-05-15 16:46:35,643 org.owasp.dependencycheck.utils.Settings:979
+DEBUG - Setting: data.h2.directory='/tmp/dctemp37daa996-1c96-42d9-b2b3-b00e27e1fdd3'
+2023-05-15 16:46:35,644 org.owasp.dependencycheck.utils.Settings:979
+DEBUG - Setting: data.connection_string='jdbc:h2:file:%s;AUTOCOMMIT=ON;CACHE_SIZE=65536;RETENTION_TIME=1000;MAX_COMPACT_TIME=10000;ACCESS_MODE_DATA=r'
+2023-05-15 16:46:35,644 org.owasp.dependencycheck.utils.Settings:979
+DEBUG - Setting: odc.autoupdate='false'
+2023-05-15 16:46:35,644 org.owasp.dependencycheck.data.nvdcve.DatabaseManager:143
+DEBUG - Loading driver 'org.h2.Driver'
+2023-05-15 16:46:35,644 org.owasp.dependencycheck.utils.Settings:1180
+DEBUG - Settings.getDataFile() - file: '/tmp/dctemp37daa996-1c96-42d9-b2b3-b00e27e1fdd3'
+2023-05-15 16:46:35,644 org.owasp.dependencycheck.utils.Settings:1437
+DEBUG - Data directory: /tmp/dctemp37daa996-1c96-42d9-b2b3-b00e27e1fdd3
+2023-05-15 16:46:35,644 org.owasp.dependencycheck.utils.Settings:1453
+DEBUG - Connection String: 'jdbc:h2:file:/tmp/dctemp37daa996-1c96-42d9-b2b3-b00e27e1fdd3/odc;AUTOCOMMIT=ON;CACHE_SIZE=65536;RETENTION_TIME=1000;MAX_COMPACT_TIME=10000;ACCESS_MODE_DATA=r'
+2023-05-15 16:46:35,644 org.owasp.dependencycheck.data.nvdcve.DatabaseManager:178
+DEBUG - Loading database connection
+2023-05-15 16:46:35,644 org.owasp.dependencycheck.data.nvdcve.DatabaseManager:179
+DEBUG - Connection String: jdbc:h2:file:/tmp/dctemp37daa996-1c96-42d9-b2b3-b00e27e1fdd3/odc;AUTOCOMMIT=ON;CACHE_SIZE=65536;RETENTION_TIME=1000;MAX_COMPACT_TIME=10000;ACCESS_MODE_DATA=r
+2023-05-15 16:46:35,644 org.owasp.dependencycheck.data.nvdcve.DatabaseManager:180
+DEBUG - Database User: dcuser
+2023-05-15 16:46:35,655 org.owasp.dependencycheck.data.nvdcve.DatabaseManager:241
+DEBUG - Database product: h2
+2023-05-15 16:46:35,656 org.owasp.dependencycheck.data.nvdcve.DatabaseManager:502
+DEBUG - DC Schema: 5.4
+2023-05-15 16:46:35,656 org.owasp.dependencycheck.data.nvdcve.DatabaseManager:503
+DEBUG - DB Schema: 5.4
+2023-05-15 16:46:35,679 org.owasp.dependencycheck.utils.WriteLock:240
+DEBUG - Lock released (main) 22919a92b5b489c157cabbbece98524e @ 2023-05-15 16:46:35.679
+2023-05-15 16:46:35,680 org.owasp.dependencycheck.Engine:639
+INFO  - 
+
+Dependency-Check is an open source tool performing a best effort analysis of 3rd party dependencies; false positives and false negatives may exist in the analysis performed by the tool. Use of the tool and the reporting provided constitutes acceptance for use in an AS IS condition, and there are NO warranties, implied or otherwise, with regard to the analysis or its use. Any use of the tool and the reporting provided is at the user’s risk. In no event shall the copyright holder or OWASP be held liable for any damages whatsoever arising out of or in connection with the use of this tool, the analysis performed, or the resulting report.
+
+
+   About ODC: https://jeremylong.github.io/DependencyCheck/general/internals.html
+   False Positives: https://jeremylong.github.io/DependencyCheck/general/suppression.html
+
+💖 Sponsor: https://github.com/sponsors/jeremylong
+
+
+2023-05-15 16:46:35,680 org.owasp.dependencycheck.Engine:649
+DEBUG - 
+----------------------------------------------------
+BEGIN ANALYSIS
+----------------------------------------------------
+2023-05-15 16:46:35,680 org.owasp.dependencycheck.Engine:650
+INFO  - Analysis Started
+2023-05-15 16:46:35,680 org.owasp.dependencycheck.Engine:823
+DEBUG - Initializing Archive Analyzer
+2023-05-15 16:46:35,680 org.owasp.dependencycheck.Engine:675
+DEBUG - Skipping Archive Analyzer (not enabled)
+2023-05-15 16:46:35,680 org.owasp.dependencycheck.Engine:823
+DEBUG - Initializing Ruby Bundle Audit Analyzer
+2023-05-15 16:46:35,680 org.owasp.dependencycheck.analyzer.AbstractAnalyzer:104
+DEBUG - Ruby Bundle Audit Analyzer has been disabled
+2023-05-15 16:46:35,680 org.owasp.dependencycheck.Engine:675
+DEBUG - Skipping Ruby Bundle Audit Analyzer (not enabled)
+2023-05-15 16:46:35,680 org.owasp.dependencycheck.Engine:823
+DEBUG - Initializing File Name Analyzer
+2023-05-15 16:46:35,680 org.owasp.dependencycheck.Engine:758
+DEBUG - Starting File Name Analyzer
+2023-05-15 16:46:35,681 org.owasp.dependencycheck.Engine:806
+DEBUG - Parallel processing with up to 12 threads: File Name Analyzer.
+2023-05-15 16:46:35,682 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json' (File Name Analyzer)
+2023-05-15 16:46:35,682 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package.json' (File Name Analyzer)
+2023-05-15 16:46:35,684 org.owasp.dependencycheck.Engine:673
+INFO  - Finished File Name Analyzer (0 seconds)
+2023-05-15 16:46:35,684 org.owasp.dependencycheck.Engine:823
+DEBUG - Initializing Jar Analyzer
+2023-05-15 16:46:35,684 org.owasp.dependencycheck.Engine:675
+DEBUG - Skipping Jar Analyzer (not enabled)
+2023-05-15 16:46:35,684 org.owasp.dependencycheck.Engine:823
+DEBUG - Initializing Central Analyzer
+2023-05-15 16:46:35,684 org.owasp.dependencycheck.Engine:675
+DEBUG - Skipping Central Analyzer (not enabled)
+2023-05-15 16:46:35,684 org.owasp.dependencycheck.Engine:823
+DEBUG - Initializing Nexus Analyzer
+2023-05-15 16:46:35,684 org.owasp.dependencycheck.analyzer.AbstractAnalyzer:104
+DEBUG - Nexus Analyzer has been disabled
+2023-05-15 16:46:35,684 org.owasp.dependencycheck.Engine:675
+DEBUG - Skipping Nexus Analyzer (not enabled)
+2023-05-15 16:46:35,684 org.owasp.dependencycheck.Engine:823
+DEBUG - Initializing Artifactory Analyzer
+2023-05-15 16:46:35,684 org.owasp.dependencycheck.analyzer.AbstractAnalyzer:104
+DEBUG - Artifactory Analyzer has been disabled
+2023-05-15 16:46:35,684 org.owasp.dependencycheck.Engine:675
+DEBUG - Skipping Artifactory Analyzer (not enabled)
+2023-05-15 16:46:35,684 org.owasp.dependencycheck.Engine:823
+DEBUG - Initializing Nuspec Analyzer
+2023-05-15 16:46:35,684 org.owasp.dependencycheck.Engine:675
+DEBUG - Skipping Nuspec Analyzer (not enabled)
+2023-05-15 16:46:35,684 org.owasp.dependencycheck.Engine:823
+DEBUG - Initializing Nugetconf Analyzer
+2023-05-15 16:46:35,684 org.owasp.dependencycheck.Engine:675
+DEBUG - Skipping Nugetconf Analyzer (not enabled)
+2023-05-15 16:46:35,684 org.owasp.dependencycheck.Engine:823
+DEBUG - Initializing MSBuild Project Analyzer
+2023-05-15 16:46:35,684 org.owasp.dependencycheck.Engine:675
+DEBUG - Skipping MSBuild Project Analyzer (not enabled)
+2023-05-15 16:46:35,684 org.owasp.dependencycheck.Engine:823
+DEBUG - Initializing Assembly Analyzer
+2023-05-15 16:46:35,684 org.owasp.dependencycheck.analyzer.AbstractAnalyzer:104
+DEBUG - Assembly Analyzer has been disabled
+2023-05-15 16:46:35,684 org.owasp.dependencycheck.Engine:675
+DEBUG - Skipping Assembly Analyzer (not enabled)
+2023-05-15 16:46:35,684 org.owasp.dependencycheck.Engine:823
+DEBUG - Initializing OpenSSL Source Analyzer
+2023-05-15 16:46:35,685 org.owasp.dependencycheck.Engine:675
+DEBUG - Skipping OpenSSL Source Analyzer (not enabled)
+2023-05-15 16:46:35,685 org.owasp.dependencycheck.Engine:823
+DEBUG - Initializing Node.js Package Analyzer
+2023-05-15 16:46:35,685 org.owasp.dependencycheck.Engine:758
+DEBUG - Starting Node.js Package Analyzer
+2023-05-15 16:46:35,685 org.owasp.dependencycheck.Engine:806
+DEBUG - Parallel processing with up to 12 threads: Node.js Package Analyzer.
+2023-05-15 16:46:35,685 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json' (Node.js Package Analyzer)
+2023-05-15 16:46:35,685 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package.json' (Node.js Package Analyzer)
+2023-05-15 16:46:35,686 org.owasp.dependencycheck.analyzer.AbstractNpmAnalyzer:416
+DEBUG - Initializing Node Audit Analyzer
+2023-05-15 16:46:35,686 org.owasp.dependencycheck.analyzer.AbstractNpmAnalyzer:416
+DEBUG - Initializing Node Audit Analyzer
+2023-05-15 16:46:35,687 org.owasp.dependencycheck.data.nodeaudit.NodeAuditSearch:92
+DEBUG - Node Audit Search URL: https://registry.npmjs.org/-/npm/v1/security/audits
+2023-05-15 16:46:35,687 org.owasp.dependencycheck.data.nodeaudit.NodeAuditSearch:92
+DEBUG - Node Audit Search URL: https://registry.npmjs.org/-/npm/v1/security/audits
+2023-05-15 16:46:35,687 org.owasp.dependencycheck.data.nodeaudit.NodeAuditSearch:100
+DEBUG - Not using proxy
+2023-05-15 16:46:35,687 org.owasp.dependencycheck.data.nodeaudit.NodeAuditSearch:100
+DEBUG - Not using proxy
+2023-05-15 16:46:35,700 org.owasp.dependencycheck.analyzer.NodePackageAnalyzer:313
+DEBUG - Empty dependency of package-lock v2+ removed
+2023-05-15 16:46:35,706 org.owasp.dependencycheck.analyzer.NodePackageAnalyzer:292
+WARN  - dependency skipped: package.json contain an alias for string-width-cjs => string-width@^4.2.0 npm audit doesn't support aliases
+2023-05-15 16:46:35,708 org.owasp.dependencycheck.analyzer.NodePackageAnalyzer:292
+WARN  - dependency skipped: package.json contain an alias for strip-ansi-cjs => strip-ansi@^6.0.1 npm audit doesn't support aliases
+2023-05-15 16:46:35,709 org.owasp.dependencycheck.analyzer.NodePackageAnalyzer:292
+WARN  - dependency skipped: package.json contain an alias for wrap-ansi-cjs => wrap-ansi@^7.0.0 npm audit doesn't support aliases
+2023-05-15 16:46:35,713 org.owasp.dependencycheck.analyzer.DependencyMergingAnalyzer:153
+DEBUG - Merging './package-lock.json?color-convert:2.0.1/color-name:~1.1.4' into './package-lock.json?/color-name:1.1.4'
+2023-05-15 16:46:35,723 org.owasp.dependencycheck.analyzer.DependencyMergingAnalyzer:153
+DEBUG - Merging './package-lock.json?/eastasianwidth:0.2.0' into './package-lock.json?string-width:5.1.2/eastasianwidth:^0.2.0'
+2023-05-15 16:46:35,724 org.owasp.dependencycheck.analyzer.DependencyMergingAnalyzer:153
+DEBUG - Merging './package-lock.json?/emoji-regex:9.2.2' into './package-lock.json?string-width:5.1.2/emoji-regex:^9.2.2'
+2023-05-15 16:46:35,725 org.owasp.dependencycheck.analyzer.DependencyMergingAnalyzer:153
+DEBUG - Merging './package-lock.json?@isaacs/cliui:8.0.2/strip-ansi:^7.0.1' into './package-lock.json?string-width:5.1.2/strip-ansi:^7.0.1'
+2023-05-15 16:46:35,726 org.owasp.dependencycheck.analyzer.DependencyMergingAnalyzer:153
+DEBUG - Merging './package-lock.json?@isaacs/cliui:8.0.2/string-width:^5.1.2' into './package-lock.json?/string-width:5.1.2'
+2023-05-15 16:46:35,729 org.owasp.dependencycheck.analyzer.DependencyMergingAnalyzer:153
+DEBUG - Merging './package-lock.json?/is-fullwidth-code-point:3.0.0' into './package-lock.json?string-width-cjs:4.2.3/is-fullwidth-code-point:^3.0.0'
+2023-05-15 16:46:35,733 org.owasp.dependencycheck.analyzer.DependencyMergingAnalyzer:153
+DEBUG - Merging './package-lock.json?string-width-cjs:4.2.3/emoji-regex:^8.0.0' into './package-lock.json?/emoji-regex:8.0.0'
+2023-05-15 16:46:35,735 org.owasp.dependencycheck.analyzer.DependencyMergingAnalyzer:153
+DEBUG - Merging './package-lock.json?/ansi-regex:5.0.1' into './package-lock.json?strip-ansi:6.0.1/ansi-regex:^5.0.1'
+2023-05-15 16:46:35,736 org.owasp.dependencycheck.analyzer.DependencyMergingAnalyzer:153
+DEBUG - Merging './package-lock.json?string-width-cjs:4.2.3/strip-ansi:^6.0.1' into './package-lock.json?/strip-ansi:6.0.1'
+2023-05-15 16:46:35,738 org.owasp.dependencycheck.analyzer.DependencyMergingAnalyzer:153
+DEBUG - Merging './package-lock.json?/ansi-regex:6.0.1' into './package-lock.json?strip-ansi:7.0.1/ansi-regex:^6.0.1'
+2023-05-15 16:46:35,739 org.owasp.dependencycheck.analyzer.DependencyMergingAnalyzer:153
+DEBUG - Merging './package-lock.json?string-width:5.1.2/strip-ansi:^7.0.1' into './package-lock.json?/strip-ansi:7.0.1'
+2023-05-15 16:46:35,743 org.owasp.dependencycheck.analyzer.DependencyMergingAnalyzer:153
+DEBUG - Merging './package-lock.json?strip-ansi-cjs:6.0.1/ansi-regex:^5.0.1' into './package-lock.json?/ansi-regex:5.0.1'
+2023-05-15 16:46:35,744 org.owasp.dependencycheck.analyzer.DependencyMergingAnalyzer:153
+DEBUG - Merging './package-lock.json?/ansi-styles:6.2.1' into './package-lock.json?wrap-ansi:8.1.0/ansi-styles:^6.1.0'
+2023-05-15 16:46:35,746 org.owasp.dependencycheck.analyzer.DependencyMergingAnalyzer:153
+DEBUG - Merging './package-lock.json?/string-width:5.1.2' into './package-lock.json?wrap-ansi:8.1.0/string-width:^5.0.1'
+2023-05-15 16:46:35,747 org.owasp.dependencycheck.analyzer.DependencyMergingAnalyzer:153
+DEBUG - Merging './package-lock.json?/strip-ansi:7.0.1' into './package-lock.json?wrap-ansi:8.1.0/strip-ansi:^7.0.1'
+2023-05-15 16:46:35,748 org.owasp.dependencycheck.analyzer.DependencyMergingAnalyzer:153
+DEBUG - Merging './package-lock.json?@isaacs/cliui:8.0.2/wrap-ansi:^8.1.0' into './package-lock.json?/wrap-ansi:8.1.0'
+2023-05-15 16:46:35,751 org.owasp.dependencycheck.analyzer.DependencyMergingAnalyzer:153
+DEBUG - Merging './package-lock.json?/string-width-cjs:4.2.3' into './package-lock.json?wrap-ansi-cjs:7.0.0/string-width:^4.1.0'
+2023-05-15 16:46:35,752 org.owasp.dependencycheck.analyzer.DependencyMergingAnalyzer:153
+DEBUG - Merging './package-lock.json?/strip-ansi:6.0.1' into './package-lock.json?wrap-ansi-cjs:7.0.0/strip-ansi:^6.0.0'
+2023-05-15 16:46:35,753 org.owasp.dependencycheck.analyzer.DependencyMergingAnalyzer:153
+DEBUG - Merging './package-lock.json?/ansi-regex:5.0.1' into './package-lock.json?/ansi-regex:5.0.1'
+2023-05-15 16:46:35,754 org.owasp.dependencycheck.dependency.Dependency:874
+DEBUG - Attempted to add the same dependency as this, likely due to merging identical dependencies obtained from different modules
+2023-05-15 16:46:35,754 org.owasp.dependencycheck.dependency.Dependency:876
+DEBUG - this: Dependency{ fileName='ansi-regex:5.0.1', actualFilePath='./package-lock.json?/ansi-regex:5.0.1', filePath='./package-lock.json?/ansi-regex:5.0.1', packagePath='ansi-regex:5.0.1'}
+2023-05-15 16:46:35,754 org.owasp.dependencycheck.dependency.Dependency:877
+DEBUG - dependency: Dependency{ fileName='ansi-regex:5.0.1', actualFilePath='./package-lock.json?/ansi-regex:5.0.1', filePath='./package-lock.json?/ansi-regex:5.0.1', packagePath='ansi-regex:5.0.1'}
+2023-05-15 16:46:35,754 org.owasp.dependencycheck.analyzer.DependencyMergingAnalyzer:153
+DEBUG - Merging './package-lock.json?/color-convert:2.0.1' into './package-lock.json?ansi-styles:4.3.0/color-convert:^2.0.1'
+2023-05-15 16:46:35,755 org.owasp.dependencycheck.analyzer.DependencyMergingAnalyzer:153
+DEBUG - Merging './package-lock.json?wrap-ansi-cjs:7.0.0/ansi-styles:^4.0.0' into './package-lock.json?/ansi-styles:4.3.0'
+2023-05-15 16:46:35,756 org.owasp.dependencycheck.analyzer.DependencyMergingAnalyzer:153
+DEBUG - Merging './package-lock.json?/emoji-regex:8.0.0' into './package-lock.json?/emoji-regex:8.0.0'
+2023-05-15 16:46:35,756 org.owasp.dependencycheck.dependency.Dependency:874
+DEBUG - Attempted to add the same dependency as this, likely due to merging identical dependencies obtained from different modules
+2023-05-15 16:46:35,756 org.owasp.dependencycheck.dependency.Dependency:876
+DEBUG - this: Dependency{ fileName='emoji-regex:8.0.0', actualFilePath='./package-lock.json?/emoji-regex:8.0.0', filePath='./package-lock.json?/emoji-regex:8.0.0', packagePath='emoji-regex:8.0.0'}
+2023-05-15 16:46:35,756 org.owasp.dependencycheck.dependency.Dependency:877
+DEBUG - dependency: Dependency{ fileName='emoji-regex:8.0.0', actualFilePath='./package-lock.json?/emoji-regex:8.0.0', filePath='./package-lock.json?/emoji-regex:8.0.0', packagePath='emoji-regex:8.0.0'}
+2023-05-15 16:46:35,757 org.owasp.dependencycheck.analyzer.DependencyMergingAnalyzer:153
+DEBUG - Merging './package-lock.json?/emoji-regex:8.0.0' into './package-lock.json?string-width:4.2.3/emoji-regex:^8.0.0'
+2023-05-15 16:46:35,758 org.owasp.dependencycheck.analyzer.DependencyMergingAnalyzer:153
+DEBUG - Merging './package-lock.json?string-width-cjs:4.2.3/is-fullwidth-code-point:^3.0.0' into './package-lock.json?string-width:4.2.3/is-fullwidth-code-point:^3.0.0'
+2023-05-15 16:46:35,759 org.owasp.dependencycheck.analyzer.DependencyMergingAnalyzer:153
+DEBUG - Merging './package-lock.json?wrap-ansi-cjs:7.0.0/strip-ansi:^6.0.0' into './package-lock.json?string-width:4.2.3/strip-ansi:^6.0.1'
+2023-05-15 16:46:35,761 org.owasp.dependencycheck.analyzer.DependencyMergingAnalyzer:153
+DEBUG - Merging './package-lock.json?wrap-ansi-cjs:7.0.0/string-width:^4.1.0' into './package-lock.json?/string-width:4.2.3'
+2023-05-15 16:46:35,762 org.owasp.dependencycheck.analyzer.DependencyMergingAnalyzer:153
+DEBUG - Merging './package-lock.json?/ansi-regex:5.0.1' into './package-lock.json?strip-ansi:6.0.1/ansi-regex:^5.0.1'
+2023-05-15 16:46:35,762 org.owasp.dependencycheck.dependency.Dependency:879
+DEBUG - Failed to add dependency, likely due to referencing the same file as another dependency in the set.
+2023-05-15 16:46:35,762 org.owasp.dependencycheck.dependency.Dependency:880
+DEBUG - this: Dependency{ fileName='ansi-regex:^6.0.1', actualFilePath='./package-lock.json?strip-ansi:7.0.1/ansi-regex:^6.0.1', filePath='./package-lock.json?strip-ansi:7.0.1/ansi-regex:^6.0.1', packagePath='ansi-regex:6.0.1'}
+2023-05-15 16:46:35,762 org.owasp.dependencycheck.dependency.Dependency:881
+DEBUG - dependency: Dependency{ fileName='ansi-regex:^5.0.1', actualFilePath='./package-lock.json?strip-ansi:6.0.1/ansi-regex:^5.0.1', filePath='./package-lock.json?strip-ansi:6.0.1/ansi-regex:^5.0.1', packagePath='ansi-regex:6.0.1'}
+2023-05-15 16:46:35,762 org.owasp.dependencycheck.dependency.Dependency:879
+DEBUG - Failed to add dependency, likely due to referencing the same file as another dependency in the set.
+2023-05-15 16:46:35,763 org.owasp.dependencycheck.dependency.Dependency:880
+DEBUG - this: Dependency{ fileName='ansi-regex:^6.0.1', actualFilePath='./package-lock.json?strip-ansi:7.0.1/ansi-regex:^6.0.1', filePath='./package-lock.json?strip-ansi:7.0.1/ansi-regex:^6.0.1', packagePath='ansi-regex:6.0.1'}
+2023-05-15 16:46:35,763 org.owasp.dependencycheck.dependency.Dependency:881
+DEBUG - dependency: Dependency{ fileName='ansi-regex:5.0.1', actualFilePath='./package-lock.json?/ansi-regex:5.0.1', filePath='./package-lock.json?/ansi-regex:5.0.1', packagePath='ansi-regex:5.0.1'}
+2023-05-15 16:46:35,764 org.owasp.dependencycheck.Engine:673
+INFO  - Finished Node.js Package Analyzer (0 seconds)
+2023-05-15 16:46:35,764 org.owasp.dependencycheck.Engine:823
+DEBUG - Initializing Dependency Merging Analyzer
+2023-05-15 16:46:35,764 org.owasp.dependencycheck.Engine:758
+DEBUG - Starting Dependency Merging Analyzer
+2023-05-15 16:46:35,764 org.owasp.dependencycheck.Engine:809
+DEBUG - Parallel processing is not supported: Dependency Merging Analyzer.
+2023-05-15 16:46:35,764 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json' (Dependency Merging Analyzer)
+2023-05-15 16:46:35,766 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?/@isaacs/cliui:8.0.2' (Dependency Merging Analyzer)
+2023-05-15 16:46:35,766 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?/color-name:1.1.4' (Dependency Merging Analyzer)
+2023-05-15 16:46:35,766 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?string-width:5.1.2/eastasianwidth:^0.2.0' (Dependency Merging Analyzer)
+2023-05-15 16:46:35,766 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?string-width:5.1.2/emoji-regex:^9.2.2' (Dependency Merging Analyzer)
+2023-05-15 16:46:35,766 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?strip-ansi:7.0.1/ansi-regex:^6.0.1' (Dependency Merging Analyzer)
+2023-05-15 16:46:35,766 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?wrap-ansi:8.1.0/ansi-styles:^6.1.0' (Dependency Merging Analyzer)
+2023-05-15 16:46:35,766 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?wrap-ansi:8.1.0/string-width:^5.0.1' (Dependency Merging Analyzer)
+2023-05-15 16:46:35,766 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?wrap-ansi:8.1.0/strip-ansi:^7.0.1' (Dependency Merging Analyzer)
+2023-05-15 16:46:35,766 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?/wrap-ansi:8.1.0' (Dependency Merging Analyzer)
+2023-05-15 16:46:35,767 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?/wrap-ansi-cjs:7.0.0' (Dependency Merging Analyzer)
+2023-05-15 16:46:35,767 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?ansi-styles:4.3.0/color-convert:^2.0.1' (Dependency Merging Analyzer)
+2023-05-15 16:46:35,767 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?/ansi-styles:4.3.0' (Dependency Merging Analyzer)
+2023-05-15 16:46:35,767 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?string-width:4.2.3/is-fullwidth-code-point:^3.0.0' (Dependency Merging Analyzer)
+2023-05-15 16:46:35,767 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?/string-width:4.2.3' (Dependency Merging Analyzer)
+2023-05-15 16:46:35,767 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?/strip-ansi:6.0.1' (Dependency Merging Analyzer)
+2023-05-15 16:46:35,767 org.owasp.dependencycheck.Engine:673
+INFO  - Finished Dependency Merging Analyzer (0 seconds)
+2023-05-15 16:46:35,767 org.owasp.dependencycheck.Engine:823
+DEBUG - Initializing Version Filter Analyzer
+2023-05-15 16:46:35,767 org.owasp.dependencycheck.Engine:758
+DEBUG - Starting Version Filter Analyzer
+2023-05-15 16:46:35,767 org.owasp.dependencycheck.Engine:806
+DEBUG - Parallel processing with up to 12 threads: Version Filter Analyzer.
+2023-05-15 16:46:35,767 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?/@isaacs/cliui:8.0.2' (Version Filter Analyzer)
+2023-05-15 16:46:35,767 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json' (Version Filter Analyzer)
+2023-05-15 16:46:35,768 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?string-width:5.1.2/emoji-regex:^9.2.2' (Version Filter Analyzer)
+2023-05-15 16:46:35,768 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?strip-ansi:7.0.1/ansi-regex:^6.0.1' (Version Filter Analyzer)
+2023-05-15 16:46:35,768 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?string-width:5.1.2/eastasianwidth:^0.2.0' (Version Filter Analyzer)
+2023-05-15 16:46:35,767 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?/color-name:1.1.4' (Version Filter Analyzer)
+2023-05-15 16:46:35,768 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?wrap-ansi:8.1.0/string-width:^5.0.1' (Version Filter Analyzer)
+2023-05-15 16:46:35,768 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?wrap-ansi:8.1.0/ansi-styles:^6.1.0' (Version Filter Analyzer)
+2023-05-15 16:46:35,769 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?wrap-ansi:8.1.0/strip-ansi:^7.0.1' (Version Filter Analyzer)
+2023-05-15 16:46:35,769 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?/wrap-ansi-cjs:7.0.0' (Version Filter Analyzer)
+2023-05-15 16:46:35,769 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?/ansi-styles:4.3.0' (Version Filter Analyzer)
+2023-05-15 16:46:35,769 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?/wrap-ansi:8.1.0' (Version Filter Analyzer)
+2023-05-15 16:46:35,769 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?string-width:4.2.3/is-fullwidth-code-point:^3.0.0' (Version Filter Analyzer)
+2023-05-15 16:46:35,769 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?ansi-styles:4.3.0/color-convert:^2.0.1' (Version Filter Analyzer)
+2023-05-15 16:46:35,769 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?/string-width:4.2.3' (Version Filter Analyzer)
+2023-05-15 16:46:35,769 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?/strip-ansi:6.0.1' (Version Filter Analyzer)
+2023-05-15 16:46:35,769 org.owasp.dependencycheck.Engine:673
+INFO  - Finished Version Filter Analyzer (0 seconds)
+2023-05-15 16:46:35,770 org.owasp.dependencycheck.Engine:823
+DEBUG - Initializing Hint Analyzer
+2023-05-15 16:46:35,845 org.owasp.dependencycheck.analyzer.HintAnalyzer:333
+DEBUG - 50 hint rules were loaded.
+2023-05-15 16:46:35,846 org.owasp.dependencycheck.analyzer.HintAnalyzer:334
+DEBUG - 6 duplicating hint rules were loaded.
+2023-05-15 16:46:35,846 org.owasp.dependencycheck.Engine:758
+DEBUG - Starting Hint Analyzer
+2023-05-15 16:46:35,846 org.owasp.dependencycheck.Engine:806
+DEBUG - Parallel processing with up to 12 threads: Hint Analyzer.
+2023-05-15 16:46:35,846 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json' (Hint Analyzer)
+2023-05-15 16:46:35,846 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?/@isaacs/cliui:8.0.2' (Hint Analyzer)
+2023-05-15 16:46:35,847 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?/color-name:1.1.4' (Hint Analyzer)
+2023-05-15 16:46:35,847 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?string-width:5.1.2/eastasianwidth:^0.2.0' (Hint Analyzer)
+2023-05-15 16:46:35,847 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?string-width:5.1.2/emoji-regex:^9.2.2' (Hint Analyzer)
+2023-05-15 16:46:35,847 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?strip-ansi:7.0.1/ansi-regex:^6.0.1' (Hint Analyzer)
+2023-05-15 16:46:35,847 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?wrap-ansi:8.1.0/ansi-styles:^6.1.0' (Hint Analyzer)
+2023-05-15 16:46:35,847 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?wrap-ansi:8.1.0/string-width:^5.0.1' (Hint Analyzer)
+2023-05-15 16:46:35,847 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?wrap-ansi:8.1.0/strip-ansi:^7.0.1' (Hint Analyzer)
+2023-05-15 16:46:35,848 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?/wrap-ansi:8.1.0' (Hint Analyzer)
+2023-05-15 16:46:35,848 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?/wrap-ansi-cjs:7.0.0' (Hint Analyzer)
+2023-05-15 16:46:35,848 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?ansi-styles:4.3.0/color-convert:^2.0.1' (Hint Analyzer)
+2023-05-15 16:46:35,848 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?/ansi-styles:4.3.0' (Hint Analyzer)
+2023-05-15 16:46:35,848 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?string-width:4.2.3/is-fullwidth-code-point:^3.0.0' (Hint Analyzer)
+2023-05-15 16:46:35,848 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?/string-width:4.2.3' (Hint Analyzer)
+2023-05-15 16:46:35,848 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?/strip-ansi:6.0.1' (Hint Analyzer)
+2023-05-15 16:46:35,849 org.owasp.dependencycheck.Engine:673
+INFO  - Finished Hint Analyzer (0 seconds)
+2023-05-15 16:46:35,850 org.owasp.dependencycheck.Engine:823
+DEBUG - Initializing CPE Analyzer
+2023-05-15 16:46:35,951 org.owasp.dependencycheck.data.nvdcve.CveDB:428
+DEBUG - Entering finalize
+2023-05-15 16:46:37,496 org.owasp.dependencycheck.analyzer.CPEAnalyzer:231
+INFO  - Created CPE Index (1 seconds)
+2023-05-15 16:46:37,496 org.owasp.dependencycheck.analyzer.CPEAnalyzer:206
+DEBUG - Skipping CPE Analysis for npm
+2023-05-15 16:46:37,594 org.owasp.dependencycheck.utils.Settings:1180
+DEBUG - Settings.getDataFile() - file: '/opt/dependency-check-8.2.1/data'
+2023-05-15 16:46:37,594 org.owasp.dependencycheck.utils.Settings:1180
+DEBUG - Settings.getDataFile() - file: '/opt/dependency-check-8.2.1/data'
+2023-05-15 16:46:37,625 org.owasp.dependencycheck.utils.WriteLock:168
+DEBUG - Lock file created (main) 59374143c3d454fd4bd5eafbff618093 @ 2023-05-15 16:46:37.624
+2023-05-15 16:46:37,626 org.owasp.dependencycheck.analyzer.AbstractSuppressionAnalyzer:285
+DEBUG - copying hosted suppressions file /opt/dependency-check-8.2.1/data/publishedSuppressions.xml to /tmp/dc-basesuppressions13060715298715979336.xml
+2023-05-15 16:46:37,627 org.owasp.dependencycheck.utils.WriteLock:240
+DEBUG - Lock released (main) 59374143c3d454fd4bd5eafbff618093 @ 2023-05-15 16:46:37.627
+2023-05-15 16:46:37,641 org.owasp.dependencycheck.analyzer.AbstractSuppressionAnalyzer:160
+DEBUG - 0 suppression rules were loaded.
+2023-05-15 16:46:37,642 org.owasp.dependencycheck.Engine:758
+DEBUG - Starting CPE Analyzer
+2023-05-15 16:46:37,642 org.owasp.dependencycheck.Engine:806
+DEBUG - Parallel processing with up to 12 threads: CPE Analyzer.
+2023-05-15 16:46:37,642 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json' (CPE Analyzer)
+2023-05-15 16:46:37,642 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?/@isaacs/cliui:8.0.2' (CPE Analyzer)
+2023-05-15 16:46:37,642 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?/color-name:1.1.4' (CPE Analyzer)
+2023-05-15 16:46:37,642 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?string-width:5.1.2/eastasianwidth:^0.2.0' (CPE Analyzer)
+2023-05-15 16:46:37,642 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?string-width:5.1.2/emoji-regex:^9.2.2' (CPE Analyzer)
+2023-05-15 16:46:37,643 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?strip-ansi:7.0.1/ansi-regex:^6.0.1' (CPE Analyzer)
+2023-05-15 16:46:37,643 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?wrap-ansi:8.1.0/ansi-styles:^6.1.0' (CPE Analyzer)
+2023-05-15 16:46:37,643 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?wrap-ansi:8.1.0/strip-ansi:^7.0.1' (CPE Analyzer)
+2023-05-15 16:46:37,643 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?wrap-ansi:8.1.0/string-width:^5.0.1' (CPE Analyzer)
+2023-05-15 16:46:37,643 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?/wrap-ansi:8.1.0' (CPE Analyzer)
+2023-05-15 16:46:37,644 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?/wrap-ansi-cjs:7.0.0' (CPE Analyzer)
+2023-05-15 16:46:37,644 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?ansi-styles:4.3.0/color-convert:^2.0.1' (CPE Analyzer)
+2023-05-15 16:46:37,647 org.owasp.dependencycheck.data.cpe.AbstractMemoryIndex:273
+DEBUG - product:(package\-lock) AND vendor:(package\-lock)
+2023-05-15 16:46:37,687 org.owasp.dependencycheck.data.cpe.AbstractMemoryIndex:273
+DEBUG - product:(eastasianwidth0 eastasianwidthv0 eastasianwidth) AND vendor:(Get East Asian Width from a character. Masaki Komagata eastasianwidth eastasianwidth_project)
+2023-05-15 16:46:37,691 org.owasp.dependencycheck.data.cpe.AbstractMemoryIndex:273
+DEBUG - product:(color\-namev1 color\-name1 color\-name) AND vendor:(A list of color names "and" its values https\:\/\/github.com\/colorjs\/color\-name color\-name_project DY dfcreative gmail.com https\:\/\/github.com\/colorjs\/color\-name\/issues color\-name)
+2023-05-15 16:46:37,697 org.owasp.dependencycheck.data.cpe.AbstractMemoryIndex:273
+DEBUG - product:(emoji\-regex emoji\-regex9 emoji\-regexv9) AND vendor:(https\:\/\/mathiasbynens.be\/ https\:\/\/github.com\/mathiasbynens\/emoji\-regex\/issues https\:\/\/mths.be\/emoji\-regex emoji\-regex_project A regular expression "to" match all Emoji\-only symbols as per the Unicode Standard. emoji\-regex Mathias Bynens)
+2023-05-15 16:46:37,704 org.owasp.dependencycheck.data.cpe.AbstractMemoryIndex:273
+DEBUG - product:(string\-width string\-widthv5 string\-width5) AND vendor:(sindresorhus gmail.com https\:\/\/sindresorhus.com Get the visual width of a string "\-" the number of columns required "to" display it string\-width Sindre Sorhus string\-width_project)
+2023-05-15 16:46:37,712 org.owasp.dependencycheck.data.cpe.AbstractMemoryIndex:273
+DEBUG - product:(ansi\-regex6 ansi\-regex ansi\-regexv6) AND vendor:(sindresorhus gmail.com Regular expression for matching ANSI escape codes ansi\-regex_project https\:\/\/sindresorhus.com Sindre Sorhus ansi\-regex)
+2023-05-15 16:46:37,717 org.owasp.dependencycheck.data.cpe.AbstractMemoryIndex:273
+DEBUG - product:(strip\-ansi strip\-ansiv7 strip\-ansi7) AND vendor:(sindresorhus gmail.com strip\-ansi https\:\/\/sindresorhus.com Sindre Sorhus strip\-ansi_project Strip ANSI escape codes from a string)
+2023-05-15 16:46:37,723 org.owasp.dependencycheck.data.cpe.AbstractMemoryIndex:273
+DEBUG - product:(ansi\-styles6 ansi\-styles ansi\-stylesv6) AND vendor:(sindresorhus gmail.com ANSI escape codes for styling strings in the terminal https\:\/\/sindresorhus.com Sindre Sorhus ansi\-styles_project ansi\-styles)
+2023-05-15 16:46:37,728 org.owasp.dependencycheck.data.cpe.AbstractMemoryIndex:273
+DEBUG - product:(isaacs\/cliuiv8 isaacs\/cliui isaacs\/cliui8) AND vendor:(Ben Coe ben npmjs.com easily create complex multi\-column command\-line\-interfaces isaacs\/cliui_project isaacs\/cliui)
+2023-05-15 16:46:37,732 org.owasp.dependencycheck.data.cpe.AbstractMemoryIndex:273
+DEBUG - product:(color\-convert color\-convertv2 color\-convert2) AND vendor:(color\-convert_project color\-convert Heather Arthur fayearthur gmail.com Plain color conversion functions)
+2023-05-15 16:46:37,734 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?/ansi-styles:4.3.0' (CPE Analyzer)
+2023-05-15 16:46:37,736 org.owasp.dependencycheck.data.cpe.AbstractMemoryIndex:273
+DEBUG - product:(wrap\-ansiv7 wrap\-ansi7 wrap\-ansi) AND vendor:(sindresorhus gmail.com wrap\-ansi_project https\:\/\/sindresorhus.com Wordwrap a string with ANSI escape codes Sindre Sorhus wrap\-ansi)
+2023-05-15 16:46:37,740 org.owasp.dependencycheck.data.cpe.AbstractMemoryIndex:273
+DEBUG - product:(wrap\-ansi wrap\-ansi8 wrap\-ansiv8) AND vendor:(sindresorhus gmail.com wrap\-ansi_project https\:\/\/sindresorhus.com Wordwrap a string with ANSI escape codes Sindre Sorhus wrap\-ansi)
+2023-05-15 16:46:37,744 org.owasp.dependencycheck.data.cpe.AbstractMemoryIndex:273
+DEBUG - product:(ansi\-stylesv4 ansi\-styles4 ansi\-styles) AND vendor:(sindresorhus gmail.com ANSI escape codes for styling strings in the terminal sindresorhus.com Sindre Sorhus ansi\-styles_project ansi\-styles)
+2023-05-15 16:46:37,748 org.owasp.dependencycheck.data.cpe.AbstractMemoryIndex:273
+DEBUG - product:(isaacs\/cliuiv8 isaacs\/cliui isaacs\/cliui8) AND vendor:(Ben Coe ben npmjs.com easily create complex multi\-column command\-line\-interfaces isaacs\/cliui_project isaacs\/cliui)
+2023-05-15 16:46:37,751 org.owasp.dependencycheck.data.cpe.AbstractMemoryIndex:273
+DEBUG - product:(string\-width string\-widthv5 string\-width5) AND vendor:(sindresorhus gmail.com https\:\/\/sindresorhus.com Get the visual width of a string "\-" the number of columns required "to" display it string\-width Sindre Sorhus string\-width_project)
+2023-05-15 16:46:37,755 org.owasp.dependencycheck.data.cpe.AbstractMemoryIndex:273
+DEBUG - product:(eastasianwidth0 eastasianwidthv0 eastasianwidth) AND vendor:(Get East Asian Width from a character. Masaki Komagata eastasianwidth eastasianwidth_project)
+2023-05-15 16:46:37,758 org.owasp.dependencycheck.data.cpe.AbstractMemoryIndex:273
+DEBUG - product:(eastasianwidth0 eastasianwidthv0 eastasianwidth) AND vendor:(Get East Asian Width from a character. Masaki Komagata eastasianwidth eastasianwidth_project)
+2023-05-15 16:46:37,761 org.owasp.dependencycheck.data.cpe.AbstractMemoryIndex:273
+DEBUG - product:(strip\-ansi strip\-ansiv7 strip\-ansi7) AND vendor:(sindresorhus gmail.com strip\-ansi https\:\/\/sindresorhus.com Sindre Sorhus strip\-ansi_project Strip ANSI escape codes from a string)
+2023-05-15 16:46:37,763 org.owasp.dependencycheck.data.cpe.AbstractMemoryIndex:273
+DEBUG - product:(ansi\-styles6 ansi\-styles ansi\-stylesv6) AND vendor:(sindresorhus gmail.com ANSI escape codes for styling strings in the terminal https\:\/\/sindresorhus.com Sindre Sorhus ansi\-styles_project ansi\-styles)
+2023-05-15 16:46:37,766 org.owasp.dependencycheck.data.cpe.AbstractMemoryIndex:273
+DEBUG - product:(isaacs\/cliuiv8 isaacs\/cliui isaacs\/cliui8) AND vendor:(Ben Coe ben npmjs.com easily create complex multi\-column command\-line\-interfaces isaacs\/cliui_project isaacs\/cliui)
+2023-05-15 16:46:37,769 org.owasp.dependencycheck.data.cpe.AbstractMemoryIndex:273
+DEBUG - product:(wrap\-ansiv7 wrap\-ansi7 wrap\-ansi) AND vendor:(sindresorhus gmail.com wrap\-ansi_project https\:\/\/sindresorhus.com Wordwrap a string with ANSI escape codes Sindre Sorhus wrap\-ansi)
+2023-05-15 16:46:37,772 org.owasp.dependencycheck.data.cpe.AbstractMemoryIndex:273
+DEBUG - product:(wrap\-ansi wrap\-ansi8 wrap\-ansiv8) AND vendor:(sindresorhus gmail.com wrap\-ansi_project https\:\/\/sindresorhus.com Wordwrap a string with ANSI escape codes Sindre Sorhus wrap\-ansi)
+2023-05-15 16:46:37,775 org.owasp.dependencycheck.data.cpe.AbstractMemoryIndex:273
+DEBUG - product:(wrap\-ansi wrap\-ansi8 wrap\-ansiv8) AND vendor:(sindresorhus gmail.com wrap\-ansi_project https\:\/\/sindresorhus.com Wordwrap a string with ANSI escape codes Sindre Sorhus wrap\-ansi)
+2023-05-15 16:46:37,776 org.owasp.dependencycheck.data.cpe.AbstractMemoryIndex:273
+DEBUG - product:(isaacs\/cliuiv8 isaacs\/cliui isaacs\/cliui8) AND vendor:(Ben Coe ben npmjs.com easily create complex multi\-column command\-line\-interfaces isaacs\/cliui_project isaacs\/cliui)
+2023-05-15 16:46:37,777 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?string-width:4.2.3/is-fullwidth-code-point:^3.0.0' (CPE Analyzer)
+2023-05-15 16:46:37,778 org.owasp.dependencycheck.data.cpe.AbstractMemoryIndex:273
+DEBUG - product:(strip\-ansi strip\-ansiv7 strip\-ansi7) AND vendor:(sindresorhus gmail.com strip\-ansi https\:\/\/sindresorhus.com Sindre Sorhus strip\-ansi_project Strip ANSI escape codes from a string)
+2023-05-15 16:46:37,780 org.owasp.dependencycheck.data.cpe.AbstractMemoryIndex:273
+DEBUG - product:(color\-namev1 color\-name1 color\-name) AND vendor:(A list of color names "and" its values https\:\/\/github.com\/colorjs\/color\-name color\-name_project DY dfcreative gmail.com https\:\/\/github.com\/colorjs\/color\-name\/issues color\-name)
+2023-05-15 16:46:37,783 org.owasp.dependencycheck.data.cpe.AbstractMemoryIndex:273
+DEBUG - product:(eastasianwidth0 eastasianwidthv0 eastasianwidth) AND vendor:(Get East Asian Width from a character. Masaki Komagata eastasianwidth eastasianwidth_project)
+2023-05-15 16:46:37,784 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?/string-width:4.2.3' (CPE Analyzer)
+2023-05-15 16:46:37,784 org.owasp.dependencycheck.data.cpe.AbstractMemoryIndex:273
+DEBUG - product:(emoji\-regex emoji\-regex9 emoji\-regexv9) AND vendor:(https\:\/\/mathiasbynens.be\/ https\:\/\/github.com\/mathiasbynens\/emoji\-regex\/issues https\:\/\/mths.be\/emoji\-regex emoji\-regex_project A regular expression "to" match all Emoji\-only symbols as per the Unicode Standard. emoji\-regex Mathias Bynens)
+2023-05-15 16:46:37,787 org.owasp.dependencycheck.data.cpe.AbstractMemoryIndex:273
+DEBUG - product:(strip\-ansi strip\-ansiv7 strip\-ansi7) AND vendor:(sindresorhus gmail.com strip\-ansi https\:\/\/sindresorhus.com Sindre Sorhus strip\-ansi_project Strip ANSI escape codes from a string)
+2023-05-15 16:46:37,789 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?/strip-ansi:6.0.1' (CPE Analyzer)
+2023-05-15 16:46:37,790 org.owasp.dependencycheck.data.cpe.AbstractMemoryIndex:273
+DEBUG - product:(ansi\-stylesv4 ansi\-styles4 ansi\-styles) AND vendor:(sindresorhus gmail.com ANSI escape codes for styling strings in the terminal sindresorhus.com Sindre Sorhus ansi\-styles_project ansi\-styles)
+2023-05-15 16:46:37,791 org.owasp.dependencycheck.data.cpe.AbstractMemoryIndex:273
+DEBUG - product:(is\-fullwidth\-code\-point is\-fullwidth\-code\-point3 is\-fullwidth\-code\-pointv3) AND vendor:(sindresorhus gmail.com Check if the character represented by a given Unicode code point is fullwidth sindresorhus.com Sindre Sorhus is\-fullwidth\-code\-point is\-fullwidth\-code\-point_project)
+2023-05-15 16:46:37,795 org.owasp.dependencycheck.data.cpe.AbstractMemoryIndex:273
+DEBUG - product:(strip\-ansiv6 strip\-ansi strip\-ansi6) AND vendor:(sindresorhus gmail.com sindresorhus.com strip\-ansi Sindre Sorhus strip\-ansi_project Strip ANSI escape codes from a string)
+2023-05-15 16:46:37,796 org.owasp.dependencycheck.data.cpe.AbstractMemoryIndex:273
+DEBUG - product:(ansi\-styles6 ansi\-styles ansi\-stylesv6) AND vendor:(sindresorhus gmail.com ANSI escape codes for styling strings in the terminal https\:\/\/sindresorhus.com Sindre Sorhus ansi\-styles_project ansi\-styles)
+2023-05-15 16:46:37,798 org.owasp.dependencycheck.data.cpe.AbstractMemoryIndex:273
+DEBUG - product:(string\-width string\-widthv5 string\-width5) AND vendor:(sindresorhus gmail.com https\:\/\/sindresorhus.com Get the visual width of a string "\-" the number of columns required "to" display it string\-width Sindre Sorhus string\-width_project)
+2023-05-15 16:46:37,800 org.owasp.dependencycheck.data.cpe.AbstractMemoryIndex:273
+DEBUG - product:(color\-namev1 color\-name1 color\-name) AND vendor:(A list of color names "and" its values https\:\/\/github.com\/colorjs\/color\-name color\-name_project DY dfcreative gmail.com https\:\/\/github.com\/colorjs\/color\-name\/issues color\-name)
+2023-05-15 16:46:37,803 org.owasp.dependencycheck.data.cpe.AbstractMemoryIndex:273
+DEBUG - product:(string\-width string\-widthv4 string\-width4) AND vendor:(sindresorhus gmail.com sindresorhus.com Get the visual width of a string "\-" the number of columns required "to" display it string\-width Sindre Sorhus string\-width_project)
+2023-05-15 16:46:37,806 org.owasp.dependencycheck.data.cpe.AbstractMemoryIndex:273
+DEBUG - product:(string\-width string\-widthv4 string\-width4) AND vendor:(sindresorhus gmail.com sindresorhus.com Get the visual width of a string "\-" the number of columns required "to" display it string\-width Sindre Sorhus string\-width_project)
+2023-05-15 16:46:37,810 org.owasp.dependencycheck.data.cpe.AbstractMemoryIndex:273
+DEBUG - product:(wrap\-ansi wrap\-ansi8 wrap\-ansiv8) AND vendor:(sindresorhus gmail.com wrap\-ansi_project https\:\/\/sindresorhus.com Wordwrap a string with ANSI escape codes Sindre Sorhus wrap\-ansi)
+2023-05-15 16:46:37,812 org.owasp.dependencycheck.data.cpe.AbstractMemoryIndex:273
+DEBUG - product:(color\-convert color\-convertv2 color\-convert2) AND vendor:(color\-convert_project color\-convert Heather Arthur fayearthur gmail.com Plain color conversion functions)
+2023-05-15 16:46:37,815 org.owasp.dependencycheck.data.cpe.AbstractMemoryIndex:273
+DEBUG - product:(ansi\-stylesv4 ansi\-styles4 ansi\-styles) AND vendor:(sindresorhus gmail.com ANSI escape codes for styling strings in the terminal sindresorhus.com Sindre Sorhus ansi\-styles_project ansi\-styles)
+2023-05-15 16:46:37,817 org.owasp.dependencycheck.data.cpe.AbstractMemoryIndex:273
+DEBUG - product:(strip\-ansiv6 strip\-ansi strip\-ansi6) AND vendor:(sindresorhus gmail.com sindresorhus.com strip\-ansi Sindre Sorhus strip\-ansi_project Strip ANSI escape codes from a string)
+2023-05-15 16:46:37,818 org.owasp.dependencycheck.data.cpe.AbstractMemoryIndex:273
+DEBUG - product:(ansi\-styles6 ansi\-styles ansi\-stylesv6) AND vendor:(sindresorhus gmail.com ANSI escape codes for styling strings in the terminal https\:\/\/sindresorhus.com Sindre Sorhus ansi\-styles_project ansi\-styles)
+2023-05-15 16:46:37,820 org.owasp.dependencycheck.data.cpe.AbstractMemoryIndex:273
+DEBUG - product:(color\-namev1 color\-name1 color\-name) AND vendor:(A list of color names "and" its values https\:\/\/github.com\/colorjs\/color\-name color\-name_project DY dfcreative gmail.com https\:\/\/github.com\/colorjs\/color\-name\/issues color\-name)
+2023-05-15 16:46:37,822 org.owasp.dependencycheck.data.cpe.AbstractMemoryIndex:273
+DEBUG - product:(emoji\-regex emoji\-regex9 emoji\-regexv9) AND vendor:(https\:\/\/mathiasbynens.be\/ https\:\/\/github.com\/mathiasbynens\/emoji\-regex\/issues https\:\/\/mths.be\/emoji\-regex emoji\-regex_project A regular expression "to" match all Emoji\-only symbols as per the Unicode Standard. emoji\-regex Mathias Bynens)
+2023-05-15 16:46:37,826 org.owasp.dependencycheck.data.cpe.AbstractMemoryIndex:273
+DEBUG - product:(string\-width string\-widthv5 string\-width5) AND vendor:(sindresorhus gmail.com https\:\/\/sindresorhus.com Get the visual width of a string "\-" the number of columns required "to" display it string\-width Sindre Sorhus string\-width_project)
+2023-05-15 16:46:37,829 org.owasp.dependencycheck.data.cpe.AbstractMemoryIndex:273
+DEBUG - product:(strip\-ansiv6 strip\-ansi strip\-ansi6) AND vendor:(sindresorhus gmail.com sindresorhus.com strip\-ansi Sindre Sorhus strip\-ansi_project Strip ANSI escape codes from a string)
+2023-05-15 16:46:37,831 org.owasp.dependencycheck.data.cpe.AbstractMemoryIndex:273
+DEBUG - product:(is\-fullwidth\-code\-point is\-fullwidth\-code\-point3 is\-fullwidth\-code\-pointv3) AND vendor:(sindresorhus gmail.com Check if the character represented by a given Unicode code point is fullwidth sindresorhus.com Sindre Sorhus is\-fullwidth\-code\-point is\-fullwidth\-code\-point_project)
+2023-05-15 16:46:37,834 org.owasp.dependencycheck.data.cpe.AbstractMemoryIndex:273
+DEBUG - product:(wrap\-ansiv7 wrap\-ansi7 wrap\-ansi) AND vendor:(sindresorhus gmail.com wrap\-ansi_project https\:\/\/sindresorhus.com Wordwrap a string with ANSI escape codes Sindre Sorhus wrap\-ansi)
+2023-05-15 16:46:37,837 org.owasp.dependencycheck.data.cpe.AbstractMemoryIndex:273
+DEBUG - product:(ansi\-stylesv4 ansi\-styles4 ansi\-styles) AND vendor:(sindresorhus gmail.com ANSI escape codes for styling strings in the terminal sindresorhus.com Sindre Sorhus ansi\-styles_project ansi\-styles)
+2023-05-15 16:46:37,839 org.owasp.dependencycheck.data.cpe.AbstractMemoryIndex:273
+DEBUG - product:(strip\-ansiv6 strip\-ansi strip\-ansi6) AND vendor:(sindresorhus gmail.com sindresorhus.com strip\-ansi Sindre Sorhus strip\-ansi_project Strip ANSI escape codes from a string)
+2023-05-15 16:46:37,840 org.owasp.dependencycheck.data.cpe.AbstractMemoryIndex:273
+DEBUG - product:(package\-lock) AND vendor:(package\-lock)
+2023-05-15 16:46:37,842 org.owasp.dependencycheck.data.cpe.AbstractMemoryIndex:273
+DEBUG - product:(emoji\-regex emoji\-regex9 emoji\-regexv9) AND vendor:(https\:\/\/mathiasbynens.be\/ https\:\/\/github.com\/mathiasbynens\/emoji\-regex\/issues https\:\/\/mths.be\/emoji\-regex emoji\-regex_project A regular expression "to" match all Emoji\-only symbols as per the Unicode Standard. emoji\-regex Mathias Bynens)
+2023-05-15 16:46:37,844 org.owasp.dependencycheck.data.cpe.AbstractMemoryIndex:273
+DEBUG - product:(string\-width string\-widthv4 string\-width4) AND vendor:(sindresorhus gmail.com sindresorhus.com Get the visual width of a string "\-" the number of columns required "to" display it string\-width Sindre Sorhus string\-width_project)
+2023-05-15 16:46:37,847 org.owasp.dependencycheck.data.cpe.AbstractMemoryIndex:273
+DEBUG - product:(color\-convert color\-convertv2 color\-convert2) AND vendor:(color\-convert_project color\-convert Heather Arthur fayearthur gmail.com Plain color conversion functions)
+2023-05-15 16:46:37,849 org.owasp.dependencycheck.data.cpe.AbstractMemoryIndex:273
+DEBUG - product:(wrap\-ansiv7 wrap\-ansi7 wrap\-ansi) AND vendor:(sindresorhus gmail.com wrap\-ansi_project https\:\/\/sindresorhus.com Wordwrap a string with ANSI escape codes Sindre Sorhus wrap\-ansi)
+2023-05-15 16:46:37,852 org.owasp.dependencycheck.data.cpe.AbstractMemoryIndex:273
+DEBUG - product:(package\-lock) AND vendor:(package\-lock)
+2023-05-15 16:46:37,853 org.owasp.dependencycheck.data.cpe.AbstractMemoryIndex:273
+DEBUG - product:(string\-width string\-widthv4 string\-width4) AND vendor:(sindresorhus gmail.com sindresorhus.com Get the visual width of a string "\-" the number of columns required "to" display it string\-width Sindre Sorhus string\-width_project)
+2023-05-15 16:46:37,856 org.owasp.dependencycheck.data.cpe.AbstractMemoryIndex:273
+DEBUG - product:(is\-fullwidth\-code\-point is\-fullwidth\-code\-point3 is\-fullwidth\-code\-pointv3) AND vendor:(sindresorhus gmail.com Check if the character represented by a given Unicode code point is fullwidth sindresorhus.com Sindre Sorhus is\-fullwidth\-code\-point is\-fullwidth\-code\-point_project)
+2023-05-15 16:46:37,858 org.owasp.dependencycheck.data.cpe.AbstractMemoryIndex:273
+DEBUG - product:(color\-convert color\-convertv2 color\-convert2) AND vendor:(color\-convert_project color\-convert Heather Arthur fayearthur gmail.com Plain color conversion functions)
+2023-05-15 16:46:37,863 org.owasp.dependencycheck.data.cpe.AbstractMemoryIndex:273
+DEBUG - product:(is\-fullwidth\-code\-point is\-fullwidth\-code\-point3 is\-fullwidth\-code\-pointv3) AND vendor:(sindresorhus gmail.com Check if the character represented by a given Unicode code point is fullwidth sindresorhus.com Sindre Sorhus is\-fullwidth\-code\-point is\-fullwidth\-code\-point_project)
+2023-05-15 16:46:37,867 org.owasp.dependencycheck.Engine:673
+INFO  - Finished CPE Analyzer (2 seconds)
+2023-05-15 16:46:37,868 org.owasp.dependencycheck.Engine:823
+DEBUG - Initializing False Positive Analyzer
+2023-05-15 16:46:37,868 org.owasp.dependencycheck.Engine:758
+DEBUG - Starting False Positive Analyzer
+2023-05-15 16:46:37,868 org.owasp.dependencycheck.Engine:806
+DEBUG - Parallel processing with up to 12 threads: False Positive Analyzer.
+2023-05-15 16:46:37,869 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?/@isaacs/cliui:8.0.2' (False Positive Analyzer)
+2023-05-15 16:46:37,869 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?/color-name:1.1.4' (False Positive Analyzer)
+2023-05-15 16:46:37,869 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?string-width:5.1.2/emoji-regex:^9.2.2' (False Positive Analyzer)
+2023-05-15 16:46:37,869 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?string-width:5.1.2/eastasianwidth:^0.2.0' (False Positive Analyzer)
+2023-05-15 16:46:37,869 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json' (False Positive Analyzer)
+2023-05-15 16:46:37,869 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?strip-ansi:7.0.1/ansi-regex:^6.0.1' (False Positive Analyzer)
+2023-05-15 16:46:37,869 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?wrap-ansi:8.1.0/ansi-styles:^6.1.0' (False Positive Analyzer)
+2023-05-15 16:46:37,869 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?wrap-ansi:8.1.0/strip-ansi:^7.0.1' (False Positive Analyzer)
+2023-05-15 16:46:37,870 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?wrap-ansi:8.1.0/string-width:^5.0.1' (False Positive Analyzer)
+2023-05-15 16:46:37,871 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?/wrap-ansi:8.1.0' (False Positive Analyzer)
+2023-05-15 16:46:37,874 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?/wrap-ansi-cjs:7.0.0' (False Positive Analyzer)
+2023-05-15 16:46:37,874 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?ansi-styles:4.3.0/color-convert:^2.0.1' (False Positive Analyzer)
+2023-05-15 16:46:37,875 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?/ansi-styles:4.3.0' (False Positive Analyzer)
+2023-05-15 16:46:37,875 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?/strip-ansi:6.0.1' (False Positive Analyzer)
+2023-05-15 16:46:37,875 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?/string-width:4.2.3' (False Positive Analyzer)
+2023-05-15 16:46:37,875 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?string-width:4.2.3/is-fullwidth-code-point:^3.0.0' (False Positive Analyzer)
+2023-05-15 16:46:37,875 org.owasp.dependencycheck.Engine:673
+INFO  - Finished False Positive Analyzer (0 seconds)
+2023-05-15 16:46:37,875 org.owasp.dependencycheck.Engine:823
+DEBUG - Initializing NVD CVE Analyzer
+2023-05-15 16:46:37,875 org.owasp.dependencycheck.Engine:758
+DEBUG - Starting NVD CVE Analyzer
+2023-05-15 16:46:37,875 org.owasp.dependencycheck.Engine:806
+DEBUG - Parallel processing with up to 12 threads: NVD CVE Analyzer.
+2023-05-15 16:46:37,875 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json' (NVD CVE Analyzer)
+2023-05-15 16:46:37,876 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?/@isaacs/cliui:8.0.2' (NVD CVE Analyzer)
+2023-05-15 16:46:37,876 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?/color-name:1.1.4' (NVD CVE Analyzer)
+2023-05-15 16:46:37,876 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?string-width:5.1.2/eastasianwidth:^0.2.0' (NVD CVE Analyzer)
+2023-05-15 16:46:37,876 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?string-width:5.1.2/emoji-regex:^9.2.2' (NVD CVE Analyzer)
+2023-05-15 16:46:37,876 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?strip-ansi:7.0.1/ansi-regex:^6.0.1' (NVD CVE Analyzer)
+2023-05-15 16:46:37,876 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?wrap-ansi:8.1.0/ansi-styles:^6.1.0' (NVD CVE Analyzer)
+2023-05-15 16:46:37,876 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?/wrap-ansi:8.1.0' (NVD CVE Analyzer)
+2023-05-15 16:46:37,876 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?wrap-ansi:8.1.0/strip-ansi:^7.0.1' (NVD CVE Analyzer)
+2023-05-15 16:46:37,877 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?ansi-styles:4.3.0/color-convert:^2.0.1' (NVD CVE Analyzer)
+2023-05-15 16:46:37,877 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?/wrap-ansi-cjs:7.0.0' (NVD CVE Analyzer)
+2023-05-15 16:46:37,877 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?wrap-ansi:8.1.0/string-width:^5.0.1' (NVD CVE Analyzer)
+2023-05-15 16:46:37,877 org.owasp.dependencycheck.data.nvdcve.CveDB:622
+DEBUG - Cache miss for cpe:2.3:a:ansi-regex_project:ansi-regex:6.0.1:*:*:*:*:*:*:*
+2023-05-15 16:46:37,877 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?/ansi-styles:4.3.0' (NVD CVE Analyzer)
+2023-05-15 16:46:37,877 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?/string-width:4.2.3' (NVD CVE Analyzer)
+2023-05-15 16:46:37,877 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?/strip-ansi:6.0.1' (NVD CVE Analyzer)
+2023-05-15 16:46:37,877 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?string-width:4.2.3/is-fullwidth-code-point:^3.0.0' (NVD CVE Analyzer)
+2023-05-15 16:46:37,884 org.owasp.dependencycheck.Engine:673
+INFO  - Finished NVD CVE Analyzer (0 seconds)
+2023-05-15 16:46:37,884 org.owasp.dependencycheck.Engine:823
+DEBUG - Initializing Node Audit Analyzer
+2023-05-15 16:46:37,884 org.owasp.dependencycheck.Engine:758
+DEBUG - Starting Node Audit Analyzer
+2023-05-15 16:46:37,884 org.owasp.dependencycheck.Engine:806
+DEBUG - Parallel processing with up to 12 threads: Node Audit Analyzer.
+2023-05-15 16:46:37,885 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json' (Node Audit Analyzer)
+2023-05-15 16:46:37,892 org.owasp.dependencycheck.analyzer.NodePackageAnalyzer:292
+WARN  - dependency skipped: package.json contain an alias for string-width-cjs => string-width@4.2.3 npm audit doesn't support aliases
+2023-05-15 16:46:37,892 org.owasp.dependencycheck.analyzer.NodePackageAnalyzer:292
+WARN  - dependency skipped: package.json contain an alias for strip-ansi-cjs => strip-ansi@6.0.1 npm audit doesn't support aliases
+2023-05-15 16:46:37,892 org.owasp.dependencycheck.analyzer.NodePackageAnalyzer:292
+WARN  - dependency skipped: package.json contain an alias for wrap-ansi-cjs => wrap-ansi@7.0.0 npm audit doesn't support aliases
+2023-05-15 16:46:37,989 org.owasp.dependencycheck.utils.SSLSocketFactoryEx:283
+DEBUG - Available Protocols:
+2023-05-15 16:46:37,989 org.owasp.dependencycheck.utils.SSLSocketFactoryEx:285
+DEBUG - SSLv2Hello
+2023-05-15 16:46:37,989 org.owasp.dependencycheck.utils.SSLSocketFactoryEx:285
+DEBUG - SSLv3
+2023-05-15 16:46:37,989 org.owasp.dependencycheck.utils.SSLSocketFactoryEx:285
+DEBUG - TLSv1
+2023-05-15 16:46:37,989 org.owasp.dependencycheck.utils.SSLSocketFactoryEx:285
+DEBUG - TLSv1.1
+2023-05-15 16:46:37,989 org.owasp.dependencycheck.utils.SSLSocketFactoryEx:285
+DEBUG - TLSv1.2
+2023-05-15 16:46:37,989 org.owasp.dependencycheck.utils.SSLSocketFactoryEx:285
+DEBUG - TLSv1.3
+2023-05-15 16:46:38,472 org.owasp.dependencycheck.data.nodeaudit.NodeAuditSearch:207
+DEBUG - Invalid payload submitted to Node Audit API. Received response code: 400 Bad Request
+2023-05-15 16:46:38,473 org.owasp.dependencycheck.analyzer.NodeAuditAnalyzer:211
+ERROR - NodeAuditAnalyzer failed on ./package-lock.json
+2023-05-15 16:46:38,473 org.owasp.dependencycheck.AnalysisTask:90
+WARN  - An error occurred while analyzing './package-lock.json' (Node Audit Analyzer).
+2023-05-15 16:46:38,474 org.owasp.dependencycheck.AnalysisTask:91
+DEBUG - 
+org.owasp.dependencycheck.analyzer.exception.SearchException: Could not perform Node Audit analysis. Invalid payload submitted to Node Audit API.
+	at org.owasp.dependencycheck.data.nodeaudit.NodeAuditSearch.submitPackage(NodeAuditSearch.java:209)
+	at org.owasp.dependencycheck.data.nodeaudit.NodeAuditSearch.submitPackage(NodeAuditSearch.java:133)
+	at org.owasp.dependencycheck.analyzer.NodeAuditAnalyzer.analyzePackage(NodeAuditAnalyzer.java:189)
+	at org.owasp.dependencycheck.analyzer.NodeAuditAnalyzer.analyzeDependency(NodeAuditAnalyzer.java:146)
+	at org.owasp.dependencycheck.analyzer.AbstractAnalyzer.analyze(AbstractAnalyzer.java:131)
+	at org.owasp.dependencycheck.AnalysisTask.call(AnalysisTask.java:88)
+	at org.owasp.dependencycheck.AnalysisTask.call(AnalysisTask.java:37)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-05-15 16:46:38,475 org.owasp.dependencycheck.Engine:673
+INFO  - Finished Node Audit Analyzer (0 seconds)
+2023-05-15 16:46:38,475 org.owasp.dependencycheck.Engine:823
+DEBUG - Initializing Yarn Audit Analyzer
+2023-05-15 16:46:38,475 org.owasp.dependencycheck.analyzer.AbstractAnalyzer:104
+DEBUG - Yarn Audit Analyzer has been disabled
+2023-05-15 16:46:38,475 org.owasp.dependencycheck.Engine:675
+DEBUG - Skipping Yarn Audit Analyzer (not enabled)
+2023-05-15 16:46:38,475 org.owasp.dependencycheck.Engine:823
+DEBUG - Initializing Pnpm Audit Analyzer
+2023-05-15 16:46:38,475 org.owasp.dependencycheck.analyzer.AbstractAnalyzer:104
+DEBUG - Pnpm Audit Analyzer has been disabled
+2023-05-15 16:46:38,475 org.owasp.dependencycheck.Engine:675
+DEBUG - Skipping Pnpm Audit Analyzer (not enabled)
+2023-05-15 16:46:38,475 org.owasp.dependencycheck.Engine:823
+DEBUG - Initializing RetireJS Analyzer
+2023-05-15 16:46:38,475 org.owasp.dependencycheck.analyzer.AbstractAnalyzer:104
+DEBUG - RetireJS Analyzer has been disabled
+2023-05-15 16:46:38,475 org.owasp.dependencycheck.Engine:675
+DEBUG - Skipping RetireJS Analyzer (not enabled)
+2023-05-15 16:46:38,475 org.owasp.dependencycheck.Engine:823
+DEBUG - Initializing Sonatype OSS Index Analyzer
+2023-05-15 16:46:38,475 org.owasp.dependencycheck.Engine:758
+DEBUG - Starting Sonatype OSS Index Analyzer
+2023-05-15 16:46:38,476 org.owasp.dependencycheck.Engine:806
+DEBUG - Parallel processing with up to 12 threads: Sonatype OSS Index Analyzer.
+2023-05-15 16:46:38,476 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?/@isaacs/cliui:8.0.2' (Sonatype OSS Index Analyzer)
+2023-05-15 16:46:38,476 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?/color-name:1.1.4' (Sonatype OSS Index Analyzer)
+2023-05-15 16:46:38,476 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?string-width:5.1.2/eastasianwidth:^0.2.0' (Sonatype OSS Index Analyzer)
+2023-05-15 16:46:38,476 org.owasp.dependencycheck.analyzer.OssIndexAnalyzer:207
+DEBUG - Requesting component-reports for 15 dependencies
+2023-05-15 16:46:38,476 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?string-width:5.1.2/emoji-regex:^9.2.2' (Sonatype OSS Index Analyzer)
+2023-05-15 16:46:38,476 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?strip-ansi:7.0.1/ansi-regex:^6.0.1' (Sonatype OSS Index Analyzer)
+2023-05-15 16:46:38,476 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?wrap-ansi:8.1.0/ansi-styles:^6.1.0' (Sonatype OSS Index Analyzer)
+2023-05-15 16:46:38,476 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?wrap-ansi:8.1.0/string-width:^5.0.1' (Sonatype OSS Index Analyzer)
+2023-05-15 16:46:38,476 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?wrap-ansi:8.1.0/strip-ansi:^7.0.1' (Sonatype OSS Index Analyzer)
+2023-05-15 16:46:38,476 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?/wrap-ansi:8.1.0' (Sonatype OSS Index Analyzer)
+2023-05-15 16:46:38,476 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?/wrap-ansi-cjs:7.0.0' (Sonatype OSS Index Analyzer)
+2023-05-15 16:46:38,476 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?ansi-styles:4.3.0/color-convert:^2.0.1' (Sonatype OSS Index Analyzer)
+2023-05-15 16:46:38,476 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?/ansi-styles:4.3.0' (Sonatype OSS Index Analyzer)
+2023-05-15 16:46:38,491 org.sonatype.ossindex.service.client.util.UserDataLocation:51
+DEBUG - OS type: LINUX
+2023-05-15 16:46:38,494 org.owasp.dependencycheck.utils.Settings:1180
+DEBUG - Settings.getDataFile() - file: '/opt/dependency-check-8.2.1/data'
+2023-05-15 16:46:38,494 org.owasp.dependencycheck.data.ossindex.OssindexClientFactory:104
+DEBUG - OSS Index Cache: org.sonatype.ossindex.service.client.cache.DirectoryCache$Configuration@c73f5bd
+2023-05-15 16:46:38,495 org.sonatype.ossindex.service.client.transport.UserAgentSupplier:63
+DEBUG - User-agent: dependency-check/8.2.1 (Linux; 5.19.0-41-generic; amd64; 11.0.18)
+2023-05-15 16:46:38,519 org.sonatype.ossindex.service.client.internal.OssindexClientImpl:77
+DEBUG - Transport: org.owasp.dependencycheck.data.ossindex.ODCConnectionTransport@4cfd615e
+2023-05-15 16:46:38,519 org.sonatype.ossindex.service.client.internal.OssindexClientImpl:80
+DEBUG - Marshaller: org.sonatype.ossindex.service.client.marshal.GsonMarshaller@60fef56
+2023-05-15 16:46:38,519 org.sonatype.ossindex.service.client.internal.OssindexClientImpl:84
+DEBUG - Base URL: https://ossindex.sonatype.org/
+2023-05-15 16:46:38,519 org.sonatype.ossindex.service.client.internal.OssindexClientImpl:88
+DEBUG - Batch size: 128
+2023-05-15 16:46:38,520 org.sonatype.ossindex.service.client.cache.DirectoryCache:87
+DEBUG - Marshaller: org.sonatype.ossindex.service.client.marshal.GsonMarshaller@1550ff04
+2023-05-15 16:46:38,520 org.sonatype.ossindex.service.client.cache.DirectoryCache:88
+DEBUG - Base-directory: /opt/dependency-check-8.2.1/data/oss_cache
+2023-05-15 16:46:38,521 org.sonatype.ossindex.service.client.cache.DirectoryCache:89
+DEBUG - Expire after: PT86400S
+2023-05-15 16:46:38,521 org.sonatype.ossindex.service.client.internal.OssindexClientImpl:97
+DEBUG - Report cache: DirectoryCache{baseDir=/opt/dependency-check-8.2.1/data/oss_cache, expireAfter=PT86400S}
+2023-05-15 16:46:38,523 org.owasp.dependencycheck.analyzer.OssIndexAnalyzer:218
+DEBUG - OSS Index Analyzer submitting: [pkg:npm/%40isaacs%2Fcliui@8.0.2, pkg:npm/color-name@1.1.4, pkg:npm/eastasianwidth@0.2.0, pkg:npm/emoji-regex@9.2.2, pkg:npm/ansi-regex@6.0.1, pkg:npm/ansi-styles@6.2.1, pkg:npm/string-width@5.1.2, pkg:npm/strip-ansi@7.0.1, pkg:npm/wrap-ansi@8.1.0, pkg:npm/wrap-ansi@7.0.0, pkg:npm/color-convert@2.0.1, pkg:npm/ansi-styles@4.3.0, pkg:npm/is-fullwidth-code-point@3.0.0, pkg:npm/string-width@4.2.3, pkg:npm/strip-ansi@6.0.1]
+2023-05-15 16:46:38,523 org.sonatype.ossindex.service.client.internal.OssindexClientImpl:141
+DEBUG - Requesting 15 component-reports
+2023-05-15 16:46:38,547 org.sonatype.ossindex.service.client.internal.OssindexClientImpl:152
+DEBUG - Found cached report for: pkg:npm/%40isaacs%2Fcliui@8.0.2
+2023-05-15 16:46:38,548 org.sonatype.ossindex.service.client.internal.OssindexClientImpl:152
+DEBUG - Found cached report for: pkg:npm/color-name@1.1.4
+2023-05-15 16:46:38,549 org.sonatype.ossindex.service.client.internal.OssindexClientImpl:152
+DEBUG - Found cached report for: pkg:npm/eastasianwidth@0.2.0
+2023-05-15 16:46:38,550 org.sonatype.ossindex.service.client.internal.OssindexClientImpl:152
+DEBUG - Found cached report for: pkg:npm/emoji-regex@9.2.2
+2023-05-15 16:46:38,550 org.sonatype.ossindex.service.client.internal.OssindexClientImpl:152
+DEBUG - Found cached report for: pkg:npm/ansi-regex@6.0.1
+2023-05-15 16:46:38,551 org.sonatype.ossindex.service.client.internal.OssindexClientImpl:152
+DEBUG - Found cached report for: pkg:npm/ansi-styles@6.2.1
+2023-05-15 16:46:38,551 org.sonatype.ossindex.service.client.internal.OssindexClientImpl:152
+DEBUG - Found cached report for: pkg:npm/string-width@5.1.2
+2023-05-15 16:46:38,552 org.sonatype.ossindex.service.client.internal.OssindexClientImpl:152
+DEBUG - Found cached report for: pkg:npm/strip-ansi@7.0.1
+2023-05-15 16:46:38,552 org.sonatype.ossindex.service.client.internal.OssindexClientImpl:152
+DEBUG - Found cached report for: pkg:npm/wrap-ansi@8.1.0
+2023-05-15 16:46:38,553 org.sonatype.ossindex.service.client.internal.OssindexClientImpl:152
+DEBUG - Found cached report for: pkg:npm/wrap-ansi@7.0.0
+2023-05-15 16:46:38,553 org.sonatype.ossindex.service.client.internal.OssindexClientImpl:152
+DEBUG - Found cached report for: pkg:npm/color-convert@2.0.1
+2023-05-15 16:46:38,553 org.sonatype.ossindex.service.client.internal.OssindexClientImpl:152
+DEBUG - Found cached report for: pkg:npm/ansi-styles@4.3.0
+2023-05-15 16:46:38,554 org.sonatype.ossindex.service.client.internal.OssindexClientImpl:152
+DEBUG - Found cached report for: pkg:npm/is-fullwidth-code-point@3.0.0
+2023-05-15 16:46:38,554 org.sonatype.ossindex.service.client.internal.OssindexClientImpl:152
+DEBUG - Found cached report for: pkg:npm/string-width@4.2.3
+2023-05-15 16:46:38,555 org.sonatype.ossindex.service.client.internal.OssindexClientImpl:152
+DEBUG - Found cached report for: pkg:npm/strip-ansi@6.0.1
+2023-05-15 16:46:38,555 org.sonatype.ossindex.service.client.internal.OssindexClientImpl:184
+DEBUG - 15 component-reports; 30.84 ms
+2023-05-15 16:46:38,557 org.owasp.dependencycheck.analyzer.OssIndexAnalyzer:237
+DEBUG - Enrich dependency: Dependency{ fileName='cliui:8.0.2', actualFilePath='./package-lock.json?/@isaacs/cliui:8.0.2', filePath='./package-lock.json?/@isaacs/cliui:8.0.2', packagePath='@isaacs/cliui:8.0.2'}
+2023-05-15 16:46:38,557 org.owasp.dependencycheck.analyzer.OssIndexAnalyzer:241
+DEBUG -   Package: pkg:npm/%40isaacs%2Fcliui@8.0.2 -> HIGHEST
+2023-05-15 16:46:38,558 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?string-width:4.2.3/is-fullwidth-code-point:^3.0.0' (Sonatype OSS Index Analyzer)
+2023-05-15 16:46:38,558 org.owasp.dependencycheck.analyzer.OssIndexAnalyzer:237
+DEBUG - Enrich dependency: Dependency{ fileName='ansi-styles:4.3.0', actualFilePath='./package-lock.json?/ansi-styles:4.3.0', filePath='./package-lock.json?/ansi-styles:4.3.0', packagePath='ansi-styles:4.3.0'}
+2023-05-15 16:46:38,558 org.owasp.dependencycheck.analyzer.OssIndexAnalyzer:241
+DEBUG -   Package: pkg:npm/ansi-styles@4.3.0 -> HIGHEST
+2023-05-15 16:46:38,558 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?/string-width:4.2.3' (Sonatype OSS Index Analyzer)
+2023-05-15 16:46:38,558 org.owasp.dependencycheck.analyzer.OssIndexAnalyzer:237
+DEBUG - Enrich dependency: Dependency{ fileName='color-convert:^2.0.1', actualFilePath='./package-lock.json?ansi-styles:4.3.0/color-convert:^2.0.1', filePath='./package-lock.json?ansi-styles:4.3.0/color-convert:^2.0.1', packagePath='color-convert:2.0.1'}
+2023-05-15 16:46:38,558 org.owasp.dependencycheck.analyzer.OssIndexAnalyzer:241
+DEBUG -   Package: pkg:npm/color-convert@2.0.1 -> HIGHEST
+2023-05-15 16:46:38,558 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?/strip-ansi:6.0.1' (Sonatype OSS Index Analyzer)
+2023-05-15 16:46:38,558 org.owasp.dependencycheck.analyzer.OssIndexAnalyzer:237
+DEBUG - Enrich dependency: Dependency{ fileName='wrap-ansi-cjs:7.0.0', actualFilePath='./package-lock.json?/wrap-ansi-cjs:7.0.0', filePath='./package-lock.json?/wrap-ansi-cjs:7.0.0', packagePath='wrap-ansi:7.0.0'}
+2023-05-15 16:46:38,558 org.owasp.dependencycheck.analyzer.OssIndexAnalyzer:241
+DEBUG -   Package: pkg:npm/wrap-ansi@7.0.0 -> HIGHEST
+2023-05-15 16:46:38,559 org.owasp.dependencycheck.analyzer.OssIndexAnalyzer:237
+DEBUG - Enrich dependency: Dependency{ fileName='wrap-ansi:8.1.0', actualFilePath='./package-lock.json?/wrap-ansi:8.1.0', filePath='./package-lock.json?/wrap-ansi:8.1.0', packagePath='wrap-ansi:8.1.0'}
+2023-05-15 16:46:38,559 org.owasp.dependencycheck.analyzer.OssIndexAnalyzer:241
+DEBUG -   Package: pkg:npm/wrap-ansi@8.1.0 -> HIGHEST
+2023-05-15 16:46:38,559 org.owasp.dependencycheck.analyzer.OssIndexAnalyzer:237
+DEBUG - Enrich dependency: Dependency{ fileName='strip-ansi:^7.0.1', actualFilePath='./package-lock.json?wrap-ansi:8.1.0/strip-ansi:^7.0.1', filePath='./package-lock.json?wrap-ansi:8.1.0/strip-ansi:^7.0.1', packagePath='strip-ansi:7.0.1'}
+2023-05-15 16:46:38,559 org.owasp.dependencycheck.analyzer.OssIndexAnalyzer:241
+DEBUG -   Package: pkg:npm/strip-ansi@7.0.1 -> HIGHEST
+2023-05-15 16:46:38,559 org.owasp.dependencycheck.analyzer.OssIndexAnalyzer:237
+DEBUG - Enrich dependency: Dependency{ fileName='string-width:^5.0.1', actualFilePath='./package-lock.json?wrap-ansi:8.1.0/string-width:^5.0.1', filePath='./package-lock.json?wrap-ansi:8.1.0/string-width:^5.0.1', packagePath='string-width:5.1.2'}
+2023-05-15 16:46:38,559 org.owasp.dependencycheck.analyzer.OssIndexAnalyzer:241
+DEBUG -   Package: pkg:npm/string-width@5.1.2 -> HIGHEST
+2023-05-15 16:46:38,559 org.owasp.dependencycheck.analyzer.OssIndexAnalyzer:237
+DEBUG - Enrich dependency: Dependency{ fileName='ansi-styles:^6.1.0', actualFilePath='./package-lock.json?wrap-ansi:8.1.0/ansi-styles:^6.1.0', filePath='./package-lock.json?wrap-ansi:8.1.0/ansi-styles:^6.1.0', packagePath='ansi-styles:6.2.1'}
+2023-05-15 16:46:38,559 org.owasp.dependencycheck.analyzer.OssIndexAnalyzer:241
+DEBUG -   Package: pkg:npm/ansi-styles@6.2.1 -> HIGHEST
+2023-05-15 16:46:38,559 org.owasp.dependencycheck.analyzer.OssIndexAnalyzer:237
+DEBUG - Enrich dependency: Dependency{ fileName='ansi-regex:^6.0.1', actualFilePath='./package-lock.json?strip-ansi:7.0.1/ansi-regex:^6.0.1', filePath='./package-lock.json?strip-ansi:7.0.1/ansi-regex:^6.0.1', packagePath='ansi-regex:6.0.1'}
+2023-05-15 16:46:38,559 org.owasp.dependencycheck.analyzer.OssIndexAnalyzer:241
+DEBUG -   Package: pkg:npm/ansi-regex@6.0.1 -> HIGHEST
+2023-05-15 16:46:38,559 org.owasp.dependencycheck.analyzer.OssIndexAnalyzer:237
+DEBUG - Enrich dependency: Dependency{ fileName='emoji-regex:^9.2.2', actualFilePath='./package-lock.json?string-width:5.1.2/emoji-regex:^9.2.2', filePath='./package-lock.json?string-width:5.1.2/emoji-regex:^9.2.2', packagePath='emoji-regex:9.2.2'}
+2023-05-15 16:46:38,559 org.owasp.dependencycheck.analyzer.OssIndexAnalyzer:241
+DEBUG -   Package: pkg:npm/emoji-regex@9.2.2 -> HIGHEST
+2023-05-15 16:46:38,560 org.owasp.dependencycheck.analyzer.OssIndexAnalyzer:237
+DEBUG - Enrich dependency: Dependency{ fileName='eastasianwidth:^0.2.0', actualFilePath='./package-lock.json?string-width:5.1.2/eastasianwidth:^0.2.0', filePath='./package-lock.json?string-width:5.1.2/eastasianwidth:^0.2.0', packagePath='eastasianwidth:0.2.0'}
+2023-05-15 16:46:38,560 org.owasp.dependencycheck.analyzer.OssIndexAnalyzer:241
+DEBUG -   Package: pkg:npm/eastasianwidth@0.2.0 -> HIGHEST
+2023-05-15 16:46:38,560 org.owasp.dependencycheck.analyzer.OssIndexAnalyzer:237
+DEBUG - Enrich dependency: Dependency{ fileName='color-name:1.1.4', actualFilePath='./package-lock.json?/color-name:1.1.4', filePath='./package-lock.json?/color-name:1.1.4', packagePath='color-name:1.1.4'}
+2023-05-15 16:46:38,560 org.owasp.dependencycheck.analyzer.OssIndexAnalyzer:241
+DEBUG -   Package: pkg:npm/color-name@1.1.4 -> HIGHEST
+2023-05-15 16:46:38,560 org.owasp.dependencycheck.analyzer.OssIndexAnalyzer:237
+DEBUG - Enrich dependency: Dependency{ fileName='strip-ansi:6.0.1', actualFilePath='./package-lock.json?/strip-ansi:6.0.1', filePath='./package-lock.json?/strip-ansi:6.0.1', packagePath='strip-ansi:6.0.1'}
+2023-05-15 16:46:38,560 org.owasp.dependencycheck.analyzer.OssIndexAnalyzer:241
+DEBUG -   Package: pkg:npm/strip-ansi@6.0.1 -> HIGHEST
+2023-05-15 16:46:38,560 org.owasp.dependencycheck.analyzer.OssIndexAnalyzer:237
+DEBUG - Enrich dependency: Dependency{ fileName='string-width:4.2.3', actualFilePath='./package-lock.json?/string-width:4.2.3', filePath='./package-lock.json?/string-width:4.2.3', packagePath='string-width:4.2.3'}
+2023-05-15 16:46:38,560 org.owasp.dependencycheck.analyzer.OssIndexAnalyzer:241
+DEBUG -   Package: pkg:npm/string-width@4.2.3 -> HIGHEST
+2023-05-15 16:46:38,560 org.owasp.dependencycheck.analyzer.OssIndexAnalyzer:237
+DEBUG - Enrich dependency: Dependency{ fileName='is-fullwidth-code-point:^3.0.0', actualFilePath='./package-lock.json?string-width:4.2.3/is-fullwidth-code-point:^3.0.0', filePath='./package-lock.json?string-width:4.2.3/is-fullwidth-code-point:^3.0.0', packagePath='is-fullwidth-code-point:3.0.0'}
+2023-05-15 16:46:38,560 org.owasp.dependencycheck.analyzer.OssIndexAnalyzer:241
+DEBUG -   Package: pkg:npm/is-fullwidth-code-point@3.0.0 -> HIGHEST
+2023-05-15 16:46:38,560 org.owasp.dependencycheck.Engine:673
+INFO  - Finished Sonatype OSS Index Analyzer (0 seconds)
+2023-05-15 16:46:38,561 org.owasp.dependencycheck.Engine:823
+DEBUG - Initializing Vulnerability Suppression Analyzer
+2023-05-15 16:46:38,561 org.owasp.dependencycheck.Engine:758
+DEBUG - Starting Vulnerability Suppression Analyzer
+2023-05-15 16:46:38,561 org.owasp.dependencycheck.Engine:806
+DEBUG - Parallel processing with up to 12 threads: Vulnerability Suppression Analyzer.
+2023-05-15 16:46:38,561 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?/@isaacs/cliui:8.0.2' (Vulnerability Suppression Analyzer)
+2023-05-15 16:46:38,561 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?/color-name:1.1.4' (Vulnerability Suppression Analyzer)
+2023-05-15 16:46:38,561 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?string-width:5.1.2/eastasianwidth:^0.2.0' (Vulnerability Suppression Analyzer)
+2023-05-15 16:46:38,561 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?string-width:5.1.2/emoji-regex:^9.2.2' (Vulnerability Suppression Analyzer)
+2023-05-15 16:46:38,561 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?strip-ansi:7.0.1/ansi-regex:^6.0.1' (Vulnerability Suppression Analyzer)
+2023-05-15 16:46:38,561 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?wrap-ansi:8.1.0/ansi-styles:^6.1.0' (Vulnerability Suppression Analyzer)
+2023-05-15 16:46:38,562 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?wrap-ansi:8.1.0/string-width:^5.0.1' (Vulnerability Suppression Analyzer)
+2023-05-15 16:46:38,562 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?wrap-ansi:8.1.0/strip-ansi:^7.0.1' (Vulnerability Suppression Analyzer)
+2023-05-15 16:46:38,562 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?/wrap-ansi:8.1.0' (Vulnerability Suppression Analyzer)
+2023-05-15 16:46:38,562 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?/wrap-ansi-cjs:7.0.0' (Vulnerability Suppression Analyzer)
+2023-05-15 16:46:38,562 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?ansi-styles:4.3.0/color-convert:^2.0.1' (Vulnerability Suppression Analyzer)
+2023-05-15 16:46:38,562 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?string-width:4.2.3/is-fullwidth-code-point:^3.0.0' (Vulnerability Suppression Analyzer)
+2023-05-15 16:46:38,562 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?/string-width:4.2.3' (Vulnerability Suppression Analyzer)
+2023-05-15 16:46:38,562 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?/strip-ansi:6.0.1' (Vulnerability Suppression Analyzer)
+2023-05-15 16:46:38,562 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?/ansi-styles:4.3.0' (Vulnerability Suppression Analyzer)
+2023-05-15 16:46:38,562 org.owasp.dependencycheck.Engine:673
+INFO  - Finished Vulnerability Suppression Analyzer (0 seconds)
+2023-05-15 16:46:38,562 org.owasp.dependencycheck.Engine:823
+DEBUG - Initializing Known Exploited Vulnerability Analyzer
+2023-05-15 16:46:38,572 org.owasp.dependencycheck.Engine:758
+DEBUG - Starting Known Exploited Vulnerability Analyzer
+2023-05-15 16:46:38,572 org.owasp.dependencycheck.Engine:806
+DEBUG - Parallel processing with up to 12 threads: Known Exploited Vulnerability Analyzer.
+2023-05-15 16:46:38,573 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?/@isaacs/cliui:8.0.2' (Known Exploited Vulnerability Analyzer)
+2023-05-15 16:46:38,573 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?/color-name:1.1.4' (Known Exploited Vulnerability Analyzer)
+2023-05-15 16:46:38,573 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?string-width:5.1.2/eastasianwidth:^0.2.0' (Known Exploited Vulnerability Analyzer)
+2023-05-15 16:46:38,573 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?string-width:5.1.2/emoji-regex:^9.2.2' (Known Exploited Vulnerability Analyzer)
+2023-05-15 16:46:38,573 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?strip-ansi:7.0.1/ansi-regex:^6.0.1' (Known Exploited Vulnerability Analyzer)
+2023-05-15 16:46:38,573 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?wrap-ansi:8.1.0/ansi-styles:^6.1.0' (Known Exploited Vulnerability Analyzer)
+2023-05-15 16:46:38,573 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?wrap-ansi:8.1.0/string-width:^5.0.1' (Known Exploited Vulnerability Analyzer)
+2023-05-15 16:46:38,573 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?wrap-ansi:8.1.0/strip-ansi:^7.0.1' (Known Exploited Vulnerability Analyzer)
+2023-05-15 16:46:38,573 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?/wrap-ansi:8.1.0' (Known Exploited Vulnerability Analyzer)
+2023-05-15 16:46:38,573 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?/wrap-ansi-cjs:7.0.0' (Known Exploited Vulnerability Analyzer)
+2023-05-15 16:46:38,573 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?ansi-styles:4.3.0/color-convert:^2.0.1' (Known Exploited Vulnerability Analyzer)
+2023-05-15 16:46:38,573 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?string-width:4.2.3/is-fullwidth-code-point:^3.0.0' (Known Exploited Vulnerability Analyzer)
+2023-05-15 16:46:38,573 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?/string-width:4.2.3' (Known Exploited Vulnerability Analyzer)
+2023-05-15 16:46:38,573 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?/ansi-styles:4.3.0' (Known Exploited Vulnerability Analyzer)
+2023-05-15 16:46:38,573 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?/strip-ansi:6.0.1' (Known Exploited Vulnerability Analyzer)
+2023-05-15 16:46:38,574 org.owasp.dependencycheck.Engine:673
+INFO  - Finished Known Exploited Vulnerability Analyzer (0 seconds)
+2023-05-15 16:46:38,574 org.owasp.dependencycheck.Engine:823
+DEBUG - Initializing Dependency Bundling Analyzer
+2023-05-15 16:46:38,574 org.owasp.dependencycheck.Engine:758
+DEBUG - Starting Dependency Bundling Analyzer
+2023-05-15 16:46:38,574 org.owasp.dependencycheck.Engine:809
+DEBUG - Parallel processing is not supported: Dependency Bundling Analyzer.
+2023-05-15 16:46:38,574 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?/@isaacs/cliui:8.0.2' (Dependency Bundling Analyzer)
+2023-05-15 16:46:38,576 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?/color-name:1.1.4' (Dependency Bundling Analyzer)
+2023-05-15 16:46:38,576 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?string-width:5.1.2/eastasianwidth:^0.2.0' (Dependency Bundling Analyzer)
+2023-05-15 16:46:38,576 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?string-width:5.1.2/emoji-regex:^9.2.2' (Dependency Bundling Analyzer)
+2023-05-15 16:46:38,576 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?strip-ansi:7.0.1/ansi-regex:^6.0.1' (Dependency Bundling Analyzer)
+2023-05-15 16:46:38,576 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?wrap-ansi:8.1.0/ansi-styles:^6.1.0' (Dependency Bundling Analyzer)
+2023-05-15 16:46:38,576 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?wrap-ansi:8.1.0/string-width:^5.0.1' (Dependency Bundling Analyzer)
+2023-05-15 16:46:38,576 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?wrap-ansi:8.1.0/strip-ansi:^7.0.1' (Dependency Bundling Analyzer)
+2023-05-15 16:46:38,576 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?/wrap-ansi:8.1.0' (Dependency Bundling Analyzer)
+2023-05-15 16:46:38,576 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?/wrap-ansi-cjs:7.0.0' (Dependency Bundling Analyzer)
+2023-05-15 16:46:38,577 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?ansi-styles:4.3.0/color-convert:^2.0.1' (Dependency Bundling Analyzer)
+2023-05-15 16:46:38,577 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?/ansi-styles:4.3.0' (Dependency Bundling Analyzer)
+2023-05-15 16:46:38,577 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?string-width:4.2.3/is-fullwidth-code-point:^3.0.0' (Dependency Bundling Analyzer)
+2023-05-15 16:46:38,577 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?/string-width:4.2.3' (Dependency Bundling Analyzer)
+2023-05-15 16:46:38,577 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?/strip-ansi:6.0.1' (Dependency Bundling Analyzer)
+2023-05-15 16:46:38,577 org.owasp.dependencycheck.Engine:673
+INFO  - Finished Dependency Bundling Analyzer (0 seconds)
+2023-05-15 16:46:38,577 org.owasp.dependencycheck.Engine:823
+DEBUG - Initializing Unused Suppression Rule Analyzer
+2023-05-15 16:46:38,577 org.owasp.dependencycheck.Engine:758
+DEBUG - Starting Unused Suppression Rule Analyzer
+2023-05-15 16:46:38,577 org.owasp.dependencycheck.Engine:809
+DEBUG - Parallel processing is not supported: Unused Suppression Rule Analyzer.
+2023-05-15 16:46:38,577 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?/@isaacs/cliui:8.0.2' (Unused Suppression Rule Analyzer)
+2023-05-15 16:46:38,578 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?/color-name:1.1.4' (Unused Suppression Rule Analyzer)
+2023-05-15 16:46:38,578 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?string-width:5.1.2/eastasianwidth:^0.2.0' (Unused Suppression Rule Analyzer)
+2023-05-15 16:46:38,578 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?string-width:5.1.2/emoji-regex:^9.2.2' (Unused Suppression Rule Analyzer)
+2023-05-15 16:46:38,578 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?strip-ansi:7.0.1/ansi-regex:^6.0.1' (Unused Suppression Rule Analyzer)
+2023-05-15 16:46:38,578 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?wrap-ansi:8.1.0/ansi-styles:^6.1.0' (Unused Suppression Rule Analyzer)
+2023-05-15 16:46:38,578 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?wrap-ansi:8.1.0/string-width:^5.0.1' (Unused Suppression Rule Analyzer)
+2023-05-15 16:46:38,578 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?wrap-ansi:8.1.0/strip-ansi:^7.0.1' (Unused Suppression Rule Analyzer)
+2023-05-15 16:46:38,578 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?/wrap-ansi:8.1.0' (Unused Suppression Rule Analyzer)
+2023-05-15 16:46:38,578 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?/wrap-ansi-cjs:7.0.0' (Unused Suppression Rule Analyzer)
+2023-05-15 16:46:38,578 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?ansi-styles:4.3.0/color-convert:^2.0.1' (Unused Suppression Rule Analyzer)
+2023-05-15 16:46:38,579 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?/ansi-styles:4.3.0' (Unused Suppression Rule Analyzer)
+2023-05-15 16:46:38,579 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?string-width:4.2.3/is-fullwidth-code-point:^3.0.0' (Unused Suppression Rule Analyzer)
+2023-05-15 16:46:38,579 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?/string-width:4.2.3' (Unused Suppression Rule Analyzer)
+2023-05-15 16:46:38,579 org.owasp.dependencycheck.AnalysisTask:86
+DEBUG - Begin Analysis of './package-lock.json?/strip-ansi:6.0.1' (Unused Suppression Rule Analyzer)
+2023-05-15 16:46:38,579 org.owasp.dependencycheck.Engine:673
+INFO  - Finished Unused Suppression Rule Analyzer (0 seconds)
+2023-05-15 16:46:38,580 org.owasp.dependencycheck.Engine:854
+DEBUG - Closing Analyzer 'Archive Analyzer'
+2023-05-15 16:46:38,580 org.owasp.dependencycheck.Engine:854
+DEBUG - Closing Analyzer 'Ruby Bundle Audit Analyzer'
+2023-05-15 16:46:38,580 org.owasp.dependencycheck.Engine:854
+DEBUG - Closing Analyzer 'File Name Analyzer'
+2023-05-15 16:46:38,580 org.owasp.dependencycheck.Engine:854
+DEBUG - Closing Analyzer 'Jar Analyzer'
+2023-05-15 16:46:38,580 org.owasp.dependencycheck.Engine:854
+DEBUG - Closing Analyzer 'Central Analyzer'
+2023-05-15 16:46:38,580 org.owasp.dependencycheck.Engine:854
+DEBUG - Closing Analyzer 'Nexus Analyzer'
+2023-05-15 16:46:38,580 org.owasp.dependencycheck.Engine:854
+DEBUG - Closing Analyzer 'Artifactory Analyzer'
+2023-05-15 16:46:38,580 org.owasp.dependencycheck.Engine:854
+DEBUG - Closing Analyzer 'Nuspec Analyzer'
+2023-05-15 16:46:38,580 org.owasp.dependencycheck.Engine:854
+DEBUG - Closing Analyzer 'Nugetconf Analyzer'
+2023-05-15 16:46:38,580 org.owasp.dependencycheck.Engine:854
+DEBUG - Closing Analyzer 'MSBuild Project Analyzer'
+2023-05-15 16:46:38,580 org.owasp.dependencycheck.Engine:854
+DEBUG - Closing Analyzer 'Assembly Analyzer'
+2023-05-15 16:46:38,580 org.owasp.dependencycheck.Engine:854
+DEBUG - Closing Analyzer 'OpenSSL Source Analyzer'
+2023-05-15 16:46:38,580 org.owasp.dependencycheck.Engine:854
+DEBUG - Closing Analyzer 'Node.js Package Analyzer'
+2023-05-15 16:46:38,580 org.owasp.dependencycheck.Engine:854
+DEBUG - Closing Analyzer 'Dependency Merging Analyzer'
+2023-05-15 16:46:38,580 org.owasp.dependencycheck.Engine:854
+DEBUG - Closing Analyzer 'Version Filter Analyzer'
+2023-05-15 16:46:38,580 org.owasp.dependencycheck.Engine:854
+DEBUG - Closing Analyzer 'Hint Analyzer'
+2023-05-15 16:46:38,580 org.owasp.dependencycheck.Engine:854
+DEBUG - Closing Analyzer 'CPE Analyzer'
+2023-05-15 16:46:38,584 org.owasp.dependencycheck.Engine:854
+DEBUG - Closing Analyzer 'False Positive Analyzer'
+2023-05-15 16:46:38,585 org.owasp.dependencycheck.Engine:854
+DEBUG - Closing Analyzer 'NVD CVE Analyzer'
+2023-05-15 16:46:38,585 org.owasp.dependencycheck.Engine:854
+DEBUG - Closing Analyzer 'Node Audit Analyzer'
+2023-05-15 16:46:38,585 org.owasp.dependencycheck.Engine:854
+DEBUG - Closing Analyzer 'Yarn Audit Analyzer'
+2023-05-15 16:46:38,585 org.owasp.dependencycheck.Engine:854
+DEBUG - Closing Analyzer 'Pnpm Audit Analyzer'
+2023-05-15 16:46:38,585 org.owasp.dependencycheck.Engine:854
+DEBUG - Closing Analyzer 'RetireJS Analyzer'
+2023-05-15 16:46:38,585 org.owasp.dependencycheck.Engine:854
+DEBUG - Closing Analyzer 'Sonatype OSS Index Analyzer'
+2023-05-15 16:46:38,585 org.owasp.dependencycheck.Engine:854
+DEBUG - Closing Analyzer 'Vulnerability Suppression Analyzer'
+2023-05-15 16:46:38,585 org.owasp.dependencycheck.Engine:854
+DEBUG - Closing Analyzer 'Known Exploited Vulnerability Analyzer'
+2023-05-15 16:46:38,585 org.owasp.dependencycheck.Engine:854
+DEBUG - Closing Analyzer 'Dependency Bundling Analyzer'
+2023-05-15 16:46:38,585 org.owasp.dependencycheck.Engine:854
+DEBUG - Closing Analyzer 'Unused Suppression Rule Analyzer'
+2023-05-15 16:46:38,585 org.owasp.dependencycheck.Engine:683
+DEBUG - 
+----------------------------------------------------
+END ANALYSIS
+----------------------------------------------------
+2023-05-15 16:46:38,585 org.owasp.dependencycheck.Engine:685
+INFO  - Analysis Complete (2 seconds)
+2023-05-15 16:46:38,601 org.apache.velocity.runtime.RuntimeInstance:272
+DEBUG - Initializing Velocity, Calling init()...
+2023-05-15 16:46:38,601 org.apache.velocity.runtime.RuntimeInstance:276
+DEBUG - Starting Apache Velocity v2.3
+2023-05-15 16:46:38,604 org.apache.velocity.runtime.RuntimeInstance:522
+DEBUG - Default Properties resource: org/apache/velocity/runtime/defaults/velocity.properties
+2023-05-15 16:46:38,610 org.apache.velocity.runtime.resource.loader.ResourceLoaderFactory:48
+DEBUG - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2023-05-15 16:46:38,611 org.apache.velocity.runtime.resource.loader.FileResourceLoader:84
+DEBUG - FileResourceLoader: adding path '.'
+2023-05-15 16:46:38,612 org.apache.velocity.runtime.resource.ResourceCacheImpl:119
+DEBUG - initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2023-05-15 16:46:38,614 org.apache.velocity.runtime.RuntimeInstance:1081
+DEBUG - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2023-05-15 16:46:38,614 org.apache.velocity.runtime.RuntimeInstance:1081
+DEBUG - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2023-05-15 16:46:38,615 org.apache.velocity.runtime.RuntimeInstance:1081
+DEBUG - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2023-05-15 16:46:38,615 org.apache.velocity.runtime.RuntimeInstance:1081
+DEBUG - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2023-05-15 16:46:38,616 org.apache.velocity.runtime.RuntimeInstance:1081
+DEBUG - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2023-05-15 16:46:38,616 org.apache.velocity.runtime.RuntimeInstance:1081
+DEBUG - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2023-05-15 16:46:38,617 org.apache.velocity.runtime.RuntimeInstance:1081
+DEBUG - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2023-05-15 16:46:38,617 org.apache.velocity.runtime.RuntimeInstance:1081
+DEBUG - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2023-05-15 16:46:38,635 org.apache.velocity.runtime.ParserPoolImpl:57
+DEBUG - Created '20' parsers.
+2023-05-15 16:46:38,646 org.apache.velocity.runtime.VelocimacroFactory:152
+DEBUG - "velocimacro.library.path" is not set. Trying default library: velocimacros.vtl
+2023-05-15 16:46:38,647 org.apache.velocity.runtime.VelocimacroFactory:162
+DEBUG - Default library velocimacros.vtl not found. Trying old default library: VM_global_library.vm
+2023-05-15 16:46:38,647 org.apache.velocity.runtime.VelocimacroFactory:169
+DEBUG - Old default library VM_global_library.vm not found.
+2023-05-15 16:46:38,647 org.apache.velocity.runtime.VelocimacroFactory:253
+DEBUG - allowInline = true: VMs can be defined inline in templates
+2023-05-15 16:46:38,647 org.apache.velocity.runtime.VelocimacroFactory:274
+DEBUG - allowInlineToOverride = false: VMs defined inline may NOT replace previous VM definitions
+2023-05-15 16:46:38,647 org.apache.velocity.runtime.VelocimacroFactory:297
+DEBUG - allowInlineLocal = false: VMs defined inline will be global in scope if allowed.
+2023-05-15 16:46:38,647 org.apache.velocity.runtime.VelocimacroFactory:315
+DEBUG - autoload off: VM system will not automatically reload global library macros
+2023-05-15 16:46:38,651 org.owasp.dependencycheck.reporting.ReportGenerator:413
+INFO  - Writing report to: ././dependency-check-report.json
+2023-05-15 16:46:38,699 org.apache.velocity.runtime.VelocimacroFactory:385
+DEBUG - added VM writeJsonException: source=org.apache.velocity.Template@440eaa07
+2023-05-15 16:46:38,764 org.apache.velocity.runtime.RuntimeInstance:272
+DEBUG - Initializing Velocity, Calling init()...
+2023-05-15 16:46:38,764 org.apache.velocity.runtime.RuntimeInstance:276
+DEBUG - Starting Apache Velocity v2.3
+2023-05-15 16:46:38,765 org.apache.velocity.runtime.RuntimeInstance:522
+DEBUG - Default Properties resource: org/apache/velocity/runtime/defaults/velocity.properties
+2023-05-15 16:46:38,766 org.apache.velocity.runtime.resource.loader.ResourceLoaderFactory:48
+DEBUG - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2023-05-15 16:46:38,766 org.apache.velocity.runtime.resource.loader.FileResourceLoader:84
+DEBUG - FileResourceLoader: adding path '.'
+2023-05-15 16:46:38,766 org.apache.velocity.runtime.resource.ResourceCacheImpl:119
+DEBUG - initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2023-05-15 16:46:38,766 org.apache.velocity.runtime.RuntimeInstance:1081
+DEBUG - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2023-05-15 16:46:38,766 org.apache.velocity.runtime.RuntimeInstance:1081
+DEBUG - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2023-05-15 16:46:38,766 org.apache.velocity.runtime.RuntimeInstance:1081
+DEBUG - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2023-05-15 16:46:38,766 org.apache.velocity.runtime.RuntimeInstance:1081
+DEBUG - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2023-05-15 16:46:38,766 org.apache.velocity.runtime.RuntimeInstance:1081
+DEBUG - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2023-05-15 16:46:38,766 org.apache.velocity.runtime.RuntimeInstance:1081
+DEBUG - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2023-05-15 16:46:38,766 org.apache.velocity.runtime.RuntimeInstance:1081
+DEBUG - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2023-05-15 16:46:38,766 org.apache.velocity.runtime.RuntimeInstance:1081
+DEBUG - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2023-05-15 16:46:38,768 org.apache.velocity.runtime.ParserPoolImpl:57
+DEBUG - Created '20' parsers.
+2023-05-15 16:46:38,768 org.apache.velocity.runtime.VelocimacroFactory:152
+DEBUG - "velocimacro.library.path" is not set. Trying default library: velocimacros.vtl
+2023-05-15 16:46:38,768 org.apache.velocity.runtime.VelocimacroFactory:162
+DEBUG - Default library velocimacros.vtl not found. Trying old default library: VM_global_library.vm
+2023-05-15 16:46:38,768 org.apache.velocity.runtime.VelocimacroFactory:169
+DEBUG - Old default library VM_global_library.vm not found.
+2023-05-15 16:46:38,768 org.apache.velocity.runtime.VelocimacroFactory:253
+DEBUG - allowInline = true: VMs can be defined inline in templates
+2023-05-15 16:46:38,768 org.apache.velocity.runtime.VelocimacroFactory:274
+DEBUG - allowInlineToOverride = false: VMs defined inline may NOT replace previous VM definitions
+2023-05-15 16:46:38,768 org.apache.velocity.runtime.VelocimacroFactory:297
+DEBUG - allowInlineLocal = false: VMs defined inline will be global in scope if allowed.
+2023-05-15 16:46:38,768 org.apache.velocity.runtime.VelocimacroFactory:315
+DEBUG - autoload off: VM system will not automatically reload global library macros
+2023-05-15 16:46:38,768 org.owasp.dependencycheck.reporting.ReportGenerator:413
+INFO  - Writing report to: ././dependency-check-report.html
+2023-05-15 16:46:38,837 org.apache.velocity.runtime.VelocimacroFactory:385
+DEBUG - added VM writeHtmlException: source=org.apache.velocity.Template@2d9f64c9
+2023-05-15 16:46:38,871 org.owasp.dependencycheck.data.nvdcve.CveDB:311
+DEBUG - Closing database
+2023-05-15 16:46:38,871 org.owasp.dependencycheck.data.nvdcve.CveDB:313
+DEBUG - Cache cleared
+2023-05-15 16:46:38,872 org.owasp.dependencycheck.data.nvdcve.CveDB:316
+DEBUG - Connection closed
+2023-05-15 16:46:38,872 org.owasp.dependencycheck.data.nvdcve.CveDB:322
+DEBUG - Resources released
+2023-05-15 16:46:38,872 org.owasp.dependencycheck.data.nvdcve.DriverLoader:57
+DEBUG - Begin deregister driver
+2023-05-15 16:46:38,872 org.owasp.dependencycheck.data.nvdcve.DriverLoader:59
+DEBUG - End deregister driver
+2023-05-15 16:46:39,184 org.owasp.dependencycheck.App:213
+ERROR - Could not perform Node Audit analysis. Invalid payload submitted to Node Audit API.
+2023-05-15 16:46:39,184 org.owasp.dependencycheck.App:214
+DEBUG - unexpected error
+org.owasp.dependencycheck.analyzer.exception.SearchException: Could not perform Node Audit analysis. Invalid payload submitted to Node Audit API.
+	at org.owasp.dependencycheck.data.nodeaudit.NodeAuditSearch.submitPackage(NodeAuditSearch.java:209)
+	at org.owasp.dependencycheck.data.nodeaudit.NodeAuditSearch.submitPackage(NodeAuditSearch.java:133)
+	at org.owasp.dependencycheck.analyzer.NodeAuditAnalyzer.analyzePackage(NodeAuditAnalyzer.java:189)
+	at org.owasp.dependencycheck.analyzer.NodeAuditAnalyzer.analyzeDependency(NodeAuditAnalyzer.java:146)
+	at org.owasp.dependencycheck.analyzer.AbstractAnalyzer.analyze(AbstractAnalyzer.java:131)
+	at org.owasp.dependencycheck.AnalysisTask.call(AnalysisTask.java:88)
+	at org.owasp.dependencycheck.AnalysisTask.call(AnalysisTask.java:37)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-05-15 16:46:39,184 org.owasp.dependencycheck.utils.Settings:891
+DEBUG - Deleting ALL temporary files from `/tmp/dctemp37daa996-1c96-42d9-b2b3-b00e27e1fdd3`
+2023-05-15 16:46:39,208 org.owasp.dependencycheck.App:87
+DEBUG - Exit code: 14
